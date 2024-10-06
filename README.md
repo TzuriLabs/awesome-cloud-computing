@@ -15,7 +15,7 @@
 
 ### Learning Resources
 
-> A collection of learning resources such as basic concepts, books and tutorials.
+> Collections of learning resources such as basic concepts of cloud computing, books, and tutorials.
 
 #### Basic Concepts
 
@@ -51,9 +51,21 @@ of Standards and Technology).
 
 ### Tools & Software
 
+> Collections of tools or software to manage cloud infrastructure.
+
 #### Infrastructure as Code
 
+- [AWS CDK]() -
+- [AWS CloudFormation]() -
+- [Chef]() -
+- [Pulumi]() -
+- [Terraform]() -
+
+
 #### Containerization
+
+- [Docker]() -
+- [Kubernetes]() -
 
 #### Monitoring & Logging
 
