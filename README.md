@@ -15,12 +15,15 @@
 
 ### Learning Resources
 
+> A collection of learning resources such as basic concepts, books and tutorials.
+
 #### Basic Concepts
 
-- [NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) - Basic definition   and models of cloud computing from NSIT (National Institute
-of Standards and Technology).
 - [AWS](https://aws.amazon.com/what-is-cloud-computing/?nc1=h_ls) - Basic definition, benefits and types of cloud computing from AWS (Amazon Web Service).
 - [GCP](https://cloud.google.com/learn/what-is-cloud-computing?hl=en) - Basic definition, types, deployment models and use case from GCP (Google Cloud Platform).
+- [Linux Foundation](https://training.linuxfoundation.org/blog/perspectives-in-cloud-computing/) - Perspectives In Cloud Computing.
+- [NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) - Basic definition   and models of cloud computing from NIST (National Institute
+of Standards and Technology).
 
 #### Tutorials
 
@@ -37,9 +40,14 @@ of Standards and Technology).
 
 ### Platforms
 
-Public and private platforms.
+> Public, private or hybrid platforms. Open source or enterprise platforms.
 
-- [AWS](https://aws.amazon.com/console/)
+- [AWS](https://aws.amazon.com/console/) - Cloud platform offering over 200 services for computing, storage, databases, machine learning, and more.
+- [Azure](https://azure.microsoft.com/en-us) - Cloud computing platform providing a wide range of integrated services, particularly excelling in hybrid cloud solutions and seamless integration with Microsoft's ecosystem.
+- [GCP](https://cloud.google.com/?hl=en) - Cloud platform offering over 200 services for computing, storage, databases, machine learning, and more.
+- [DigitalOcean](https://www.digitalocean.com/) - DigitalOcean is a developer-friendly cloud platform known for its simplicity, predictable pricing, and straightforward tools designed for deploying and scaling web applications.
+- [Vultr](https://www.vultr.com/) - cloud computing platform offering SSD-powered hosting, bare metal servers, and globally distributed data centers focused on delivering simplicity and reliable performance.
+- [OpenStack](https://www.openstack.org/) - An open-source cloud computing platform enabling organizations to create and manage their own private clouds, providing Infrastructure-as-a-Service through a set of interrelated services.
 
 ### Tools & Software
 
