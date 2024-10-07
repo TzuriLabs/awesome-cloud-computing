@@ -12,6 +12,8 @@
     - [Books](#books)
 - [Platforms](#platforms)
 - [Tools and Software](#tools--software)
+    - [Infrastructure as Code](#infrastructure-as-code)
+    - [Containerization](#containerization)
 
 ### Learning Resources
 
@@ -55,17 +57,15 @@ of Standards and Technology).
 
 #### Infrastructure as Code
 
-- [AWS CDK]() -
-- [AWS CloudFormation]() -
-- [Chef]() -
-- [Pulumi]() -
-- [Terraform]() -
-
+- [AWS CDK](https://aws.amazon.com/cdk/) - Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
+- [Chef](https://www.chef.io/) - An open source systems management and cloud infrastructure. automation platform
+- [Pulumi](https://www.pulumi.com/) - Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources.
+- [Terraform](https://www.terraform.io/) - IAC tool to provision and manage resources in any cloud or data center.
 
 #### Containerization
 
-- [Docker]() -
-- [Kubernetes]() -
+- [Docker](https://www.docker.com/) - Is a software platform that allows you to build, test, and deploy applications quickly using containers.
+- [Kubernetes](https://kubernetes.io/) - Is an open source system for automating deployment, scaling, and management of containerized applications.
 
 #### Monitoring & Logging
 
