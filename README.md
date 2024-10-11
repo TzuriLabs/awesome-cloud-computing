@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of concepts, platforms, tools, practices and resources to learn, improve cloud computing knowledge.
+> A curated list of concepts, cloud platforms, tools, practices and resources to learn, improve cloud computing knowledge.
 
 ## Content
 
@@ -14,6 +14,7 @@
 - [Tools and Software](#tools--software)
     - [Infrastructure as Code](#infrastructure-as-code)
     - [Containerization](#containerization)
+    - [Monitoring & Logging](#monitoring--logging)
 
 ### Learning Resources
 
@@ -69,10 +70,35 @@ of Standards and Technology).
 
 #### Monitoring & Logging
 
+> Collections of tools or software used to monitor your cloud services.
+
+- [Grafana](https://grafana.com/) - Is a multi-platform open source analytics and interactive visualization web application.
+- [Prometheus](https://prometheus.io/) - Is an open-source systems monitoring and alerting toolkit.
+- [ELK](https://www.elastic.co/elastic-stack) - Is an acronym that stands for Elasticsearch, Logstash, and Kibana. Together, these three components provide a powerful, integrated solution for managing large volumes of data, offering real-time insights and a comprehensive analytics suite.
+
 ### Best Practices
 
 ### Security
 
 ### Certifications
 
+
 ### Community and Conferences
+
+> Collections of communities or conferences, with focus on cloud computing.
+
+#### Community
+
+- [AWS Community BUilder](https://aws.amazon.com/developer/community/community-builders/) - Program offers technical resources, education, and networking opportunities to AWS technical enthusiasts and emerging thought leaders who are passionate about sharing knowledge and connecting with the technical community.
+
+- [Google Cloud Community](https://cloud.google.com/communities) - Meet industry peers, ask questions, collaborate to find answers, and connect with Googlers who are making the products you use every day.
+
+- [DevOps Exchange](https://www.devops-exchange.io/) - Global community that ignites the passion for DevOps.
+
+- [OpenStack](https://www.openstack.org/community/) - The Community Team helps developers and users of OpenStack find information relevant for them. The group is made by staff of the OpenStack Foundation and volunteers around the world.
+
+#### Conferences
+
+- [AWS re:Invent](https://reinvent.awsevents.com/) - Is a learning conference hosted by AWS for the global cloud-computing community.
+- [Microsoft Ignite](https://ignite.microsoft.com/en-US/home) - Is an annual conference for developers, IT professionals and partners, hosted by Microsoft.
+- [OpenInfra](https://openinfra.dev/summit/) - a global collaboration of 110,000 people across 187 countries, builds and operates infrastructure powered by open source software (likes Linux, OpenStack, etc).
