@@ -8,17 +8,34 @@
 
 - [Learning Resources](#learning-resources)
     - [Basic Concepts](#basic-concepts)
-    - [Tutorials](#tutorials)
     - [Books](#books)
+    - [Tutorials](#tutorials)
+    - [Certifications](#certifications)
 - [Platforms](#platforms)
 - [Tools and Software](#tools--software)
     - [Infrastructure as Code](#infrastructure-as-code)
     - [Containerization](#containerization)
-    - [Monitoring & Logging](#monitoring--logging)
+        - [Container Engines](#container-engines)
+        - [Orchestration](#orchestration)
+        - [Management Tools](#management-tools)
+    - [Monitoring](#monitoring)
+    - [Logging](#logging)
+- [Best Practices](#best-practices)
+    - [Cost Optimazation](#cost-optimazion)
+    - [Scalability and Performances](#scalability-and-performances)
+- [Security](#security)
+    - [Identity & Access Management (IAM)](#identity--access-management-iam)
+    - [Threat Detection](#threat-detection)
+    - [Secret Management](#secret-management)
+    - [Compliance & Governance](#compliance--governance)
+- [Community and Conferences](#community-and-conferences)
+    - [Community](#community)
+    - [Conferences](#conferences)
+
 
 ### Learning Resources
 
-> Collections of learning resources such as basic concepts of cloud computing, books, and tutorials.
+> Collections of learning resources such as basic concepts of cloud computing, books, tutorials, and certifications.
 
 #### Basic Concepts
 
@@ -28,18 +45,45 @@
 - [NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) - Basic definition   and models of cloud computing from NIST (National Institute
 of Standards and Technology).
 
-#### Tutorials
-
-- [Getting Started with AWS.](https://aws.amazon.com/getting-started/)
-- [Getting started with Azure.](https://azure.microsoft.com/en-us/get-started)
-- [Getting Started With DigitalOcean Cloud Computing.](https://www.digitalocean.com/community/tutorial-series/getting-started-with-cloud-computing)
-- [Google Cloud quickstarts and tutorials.](https://cloud.google.com/docs/tutorials)
-- [Tutorials Point: Cloud Computing Tutorials.](https://www.tutorialspoint.com/cloud_computing/index.htm)
-
 #### Books
 
 - [Cloud Native Patterns by Cornelia Davis.](https://www.manning.com/books/cloud-native-patterns)
 - [The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing.](https://www.amazon.com/Cloud-Your-Service-Enterprise-Computing/dp/1935182528)
+
+#### Tutorials
+
+##### Amazon Web Service
+
+- [Getting Started with AWS.](https://aws.amazon.com/getting-started/)
+- [Hands-on Tutorials](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc&awsf.getting-started-category=*all&awsf.getting-started-content-type=*all)
+
+##### Azure
+
+- [Getting started with Azure.](https://azure.microsoft.com/en-us/get-started)
+- [Getting started with Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/getting-started?pivots=stack-python)
+
+##### DigitalOcean
+
+- [Getting Started With DigitalOcean Cloud Computing.](https://www.digitalocean.com/community/tutorial-series/getting-started-with-cloud-computing)
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials)
+
+##### Google Cloud Platforms
+
+- [Google Cloud quickstarts and tutorials.](https://cloud.google.com/docs/tutorials)
+- [Get started with Google Cloud](https://cloud.google.com/docs/get-started)
+
+#### Certifications
+
+##### Free Certifications
+
+- [AWS Educate](https://aws.amazon.com/education/awseducate/)
+- [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+
+##### Paid Certifications
+
+- [AWS Certifications](https://aws.amazon.com/certification/)
+- [Google Cloud Certification](https://cloud.google.com/learn/certification?hl=en)
+- [CompTIA Cloud+](https://www.comptia.org/certifications/cloud)
 
 ### Platforms
 
@@ -48,8 +92,8 @@ of Standards and Technology).
 - [AWS](https://aws.amazon.com/console/) - Cloud platform offering over 200 services for computing, storage, databases, machine learning, and more.
 - [Azure](https://azure.microsoft.com/en-us) - Cloud computing platform providing a wide range of integrated services, particularly excelling in hybrid cloud solutions and seamless integration with Microsoft's ecosystem.
 - [GCP](https://cloud.google.com/?hl=en) - Cloud platform offering over 200 services for computing, storage, databases, machine learning, and more.
-- [DigitalOcean](https://www.digitalocean.com/) - DigitalOcean is a developer-friendly cloud platform known for its simplicity, predictable pricing, and straightforward tools designed for deploying and scaling web applications.
-- [Vultr](https://www.vultr.com/) - cloud computing platform offering SSD-powered hosting, bare metal servers, and globally distributed data centers focused on delivering simplicity and reliable performance.
+- [DigitalOcean](https://www.digitalocean.com/) - Developer-friendly platform with simple tools and predictable pricing.
+- [Vultr](https://www.vultr.com/) - Cloud computing platform offering SSD-powered hosting, bare metal servers, and globally distributed data centers focused on delivering simplicity and reliable performance.
 - [OpenStack](https://www.openstack.org/) - An open-source cloud computing platform enabling organizations to create and manage their own private clouds, providing Infrastructure-as-a-Service through a set of interrelated services.
 
 ### Tools & Software
@@ -58,6 +102,7 @@ of Standards and Technology).
 
 #### Infrastructure as Code
 
+- [Ansible](https://www.ansible.com/) - An open-source automation tool for configuration management and application deployment, widely used for IaC.
 - [AWS CDK](https://aws.amazon.com/cdk/) - Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 - [Chef](https://www.chef.io/) - An open source systems management and cloud infrastructure. automation platform
 - [Pulumi](https://www.pulumi.com/) - Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources.
@@ -65,23 +110,83 @@ of Standards and Technology).
 
 #### Containerization
 
-- [Docker](https://www.docker.com/) - Is a software platform that allows you to build, test, and deploy applications quickly using containers.
-- [Kubernetes](https://kubernetes.io/) - Is an open source system for automating deployment, scaling, and management of containerized applications.
+> Is a technology that enables the packaging of applications and their dependencies into isolated containers, facilitating consistent deployment across different environments.
 
-#### Monitoring & Logging
+##### Container Engines
+
+- [Docker](https://www.docker.com/) - Is a software platform that allows you to build, test, and deploy applications quickly using containers.
+- [Podman](https://podman.io/) - A daemonless container engine for managing OCI containers, providing a Docker-compatible CLI.
+
+##### Orchestration
+
+- [Kubernetes](https://kubernetes.io/) - Is an open source system for automating deployment, scaling, and management of containerized applications.
+- [OpenShift](https://www.openshift.com/) - A Kubernetes-based platform offering enterprise-grade security, monitoring, and tools.
+- [Nomad](https://www.nomadproject.io/) - A simple, flexible workload orchestrator that supports containers and non-containerized applications.
+- [Docker Swarm](https://docs.docker.com/engine/swarm/) -  Is an advanced feature for managing a cluster of Docker daemons.
+
+##### Management Tools
+
+- [Docker Compose](https://docs.docker.com/compose/) - A tool for defining and running multi-container Docker applications.
+- [Helm](https://helm.sh/) - A package manager for Kubernetes to deploy pre-configured applications as charts.
+- [Rancher](https://rancher.com/) - A complete software stack for teams deploying containers, particularly Kubernetes clusters.
+
+##### Monitoring
 
 > Collections of tools or software used to monitor your cloud services.
 
 - [Grafana](https://grafana.com/) - Is a multi-platform open source analytics and interactive visualization web application.
 - [Prometheus](https://prometheus.io/) - Is an open-source systems monitoring and alerting toolkit.
+
+##### Logging
+
+> Logging refers to the systematic recording of events and activities in a cloud environment to monitor performance, troubleshoot issues, and enhance security by providing a historical record of system behavior.
+
 - [ELK](https://www.elastic.co/elastic-stack) - Is an acronym that stands for Elasticsearch, Logstash, and Kibana. Together, these three components provide a powerful, integrated solution for managing large volumes of data, offering real-time insights and a comprehensive analytics suite.
+- [Fluentd](https://www.fluentd.org/) - is a cross-platform open-source data collection software project originally developed at Treasure Data.
 
 ### Best Practices
 
+> Best Practices encompass established guidelines and strategies that help optimize cloud resource, enhance performance, and ensure security and compliance in cloud environments.
+
+#### Cost Optimization
+
+- [Cost Optimazation with AWS](https://aws.amazon.com/aws-cost-management/cost-optimization/)
+- [Cost Optimazation with Google Cloud](https://cloud.google.com/architecture/framework/cost-optimization)
+- [Optimizing OpenStack Cost](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/)
+
+#### Scalability and Performance
+
+- [AWS Auto Scaling](https://aws.amazon.com/autoscaling/)
+- [Google Cloud Autoscaler](https://cloud.google.com/compute/docs/autoscaler)
+- [OpenStack Autoscaling](https://docs.openstack.org/auto-scaling-sig/latest/theory-of-auto-scaling.html)
+
 ### Security
 
-### Certifications
+> Implementing measures and practices to protect cloud resources, data, and applications from threats, ensuring compliance with regulations, and safeguarding user privacy.
 
+#### Identity & Access Management (IAM)
+
+- [AWS IAM](https://aws.amazon.com/iam/)
+- [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)
+- [Google IAM](https://cloud.google.com/security/products/iam)
+
+#### Threat Detection
+
+- [AWS GuardDuty](https://aws.amazon.com/guardduty/)
+- [Google Cloud Security Command Center](https://cloud.google.com/security/products/security-command-center?hl=en)
+- [OpenStack Threat Analysis](https://wiki.openstack.org/wiki/Security/Threat_Analysis)
+
+#### Secret Management
+
+- [AWS Secret Manager](https://aws.amazon.com/secrets-manager/)
+- [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)
+- [HashiCorp Vault](https://www.vaultproject.io/)
+
+#### Compliance & Governance
+
+- [AWS Artifact](https://aws.amazon.com/artifact/)
+- [Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
+- [OpenStack Compliance](https://docs.openstack.org/security-guide/compliance.html)
 
 ### Community and Conferences
 
@@ -90,11 +195,8 @@ of Standards and Technology).
 #### Community
 
 - [AWS Community BUilder](https://aws.amazon.com/developer/community/community-builders/) - Program offers technical resources, education, and networking opportunities to AWS technical enthusiasts and emerging thought leaders who are passionate about sharing knowledge and connecting with the technical community.
-
 - [Google Cloud Community](https://cloud.google.com/communities) - Meet industry peers, ask questions, collaborate to find answers, and connect with Googlers who are making the products you use every day.
-
 - [DevOps Exchange](https://www.devops-exchange.io/) - Global community that ignites the passion for DevOps.
-
 - [OpenStack](https://www.openstack.org/community/) - The Community Team helps developers and users of OpenStack find information relevant for them. The group is made by staff of the OpenStack Foundation and volunteers around the world.
 
 #### Conferences
