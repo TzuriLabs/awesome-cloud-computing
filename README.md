@@ -29,6 +29,8 @@
 - [Community and Conferences](#community-and-conferences)
     - [Community](#community)
     - [Conferences](#conferences)
+- [Emerging Trends](#emerging-trends)
+- [Contributing](#contributing)
 
 ### Learning Resources
 
@@ -39,7 +41,7 @@
 - [AWS](https://aws.amazon.com/what-is-cloud-computing/?nc1=h_ls) - Basic definition, benefits and types of cloud computing from AWS (Amazon Web Service).
 - [GCP](https://cloud.google.com/learn/what-is-cloud-computing?hl=en) - Basic definition, types, deployment models and use case from GCP (Google Cloud Platform).
 - [Linux Foundation](https://training.linuxfoundation.org/blog/perspectives-in-cloud-computing/) - Perspectives In Cloud Computing.
-- [NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) - Basic definition   and models of cloud computing from NIST (National Institute
+- [NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) - Basic definition and models of cloud computing from NIST (National Institute
 of Standards and Technology).
 
 #### Books
@@ -149,8 +151,8 @@ of Standards and Technology).
 
 #### Cost Optimization
 
-- [Cost Optimazation with AWS](https://aws.amazon.com/aws-cost-management/cost-optimization/)
-- [Cost Optimazation with Google Cloud](https://cloud.google.com/architecture/framework/cost-optimization)
+- [Cost Optimization with AWS](https://aws.amazon.com/aws-cost-management/cost-optimization/)
+- [Cost Optimization with Google Cloud](https://cloud.google.com/architecture/framework/cost-optimization)
 - [Optimizing OpenStack Cost](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/)
 
 #### Scalability and Performance
@@ -203,6 +205,15 @@ of Standards and Technology).
 - [AWS re:Invent](https://reinvent.awsevents.com/) - Is a learning conference hosted by AWS for the global cloud-computing community.
 - [Microsoft Ignite](https://ignite.microsoft.com/en-US/home) - Is an annual conference for developers, IT professionals and partners, hosted by Microsoft.
 - [OpenInfra](https://openinfra.dev/summit/) - a global collaboration of 110,000 people across 187 countries, builds and operates infrastructure powered by open source software (likes Linux, OpenStack, etc).
+
+#### Emerging Trends
+
+> As cloud computing continues to evolve, new trends are shaping the future of how businesses and organizations leverage cloud technologies. Here are some key trends to watch:
+
+- [Serverless Computing](https://aws.amazon.com/serverless/) - Allows you to build and run applications and services without thinking about servers.
+- [Multicloud Strategy](https://cloud.google.com/learn/what-is-multicloud?hl=en) - Multicloud is when an organization uses cloud computing services from at least two cloud providers to run their applications.
+- [Edge Computing](https://aws.amazon.com/what-is/edge-computing/) - Is the process of bringing information storage and computing abilities closer to the devices that produce that information and the users who consume it.
+- [Artificial Intelligence (AI) Integration](https://aws.amazon.com/ai/services/) - AI and machine learning are increasingly integrated into cloud services, allowing for smarter data analysis and automation of business processes.
 
 ## Contributing
 

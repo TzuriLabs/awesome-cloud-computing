@@ -2,8 +2,6 @@
 
 Please include a summary of the changes and the related issue.
 
-Please include a summary of the changes and the related issue.
-
 ## Type of change
 
 Please check all options that are relevant.
@@ -13,7 +11,7 @@ Please check all options that are relevant.
 - [ ] Refactoring
 - [ ] Other (please describe):
 
-## Checklist:
+## Checklist
 
 - [ ] My code follows the style guidelines of this project.
 - [ ] I have updated any relevant documentation.
