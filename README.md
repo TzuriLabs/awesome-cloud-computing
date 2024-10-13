@@ -65,7 +65,7 @@ of Standards and Technology).
 ##### DigitalOcean
 
 - [Getting Started With DigitalOcean Cloud Computing.](https://www.digitalocean.com/community/tutorial-series/getting-started-with-cloud-computing)
-- [DigitalOcean](https://www.digitalocean.com/community/tutorials)
+- [DigitalOcean Community Tutorials](https://www.digitalocean.com/community/tutorials)
 
 ##### Google Cloud Platforms
 
@@ -102,6 +102,8 @@ of Standards and Technology).
 
 #### Infrastructure as Code
 
+> IaC is the process of managing and provisioning infrastructure through machine-readable configuration files, rather than physical hardware or interactive configuration tools. It helps achieve consistency, scalability, and automation in cloud environments.
+
 - [Ansible](https://www.ansible.com/) - An open-source automation tool for configuration management and application deployment, widely used for IaC.
 - [AWS CDK](https://aws.amazon.com/cdk/) - Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 - [Chef](https://www.chef.io/) - An open source systems management and cloud infrastructure. automation platform
@@ -117,7 +119,7 @@ of Standards and Technology).
 - [Docker](https://www.docker.com/) - Is a software platform that allows you to build, test, and deploy applications quickly using containers.
 - [Podman](https://podman.io/) - A daemonless container engine for managing OCI containers, providing a Docker-compatible CLI.
 
-##### Orchestration
+##### Container Orchestration
 
 - [Kubernetes](https://kubernetes.io/) - Is an open source system for automating deployment, scaling, and management of containerized applications.
 - [OpenShift](https://www.openshift.com/) - A Kubernetes-based platform offering enterprise-grade security, monitoring, and tools.
@@ -130,14 +132,14 @@ of Standards and Technology).
 - [Helm](https://helm.sh/) - A package manager for Kubernetes to deploy pre-configured applications as charts.
 - [Rancher](https://rancher.com/) - A complete software stack for teams deploying containers, particularly Kubernetes clusters.
 
-##### Monitoring
+#### Monitoring
 
 > Collections of tools or software used to monitor your cloud services.
 
 - [Grafana](https://grafana.com/) - Is a multi-platform open source analytics and interactive visualization web application.
 - [Prometheus](https://prometheus.io/) - Is an open-source systems monitoring and alerting toolkit.
 
-##### Logging
+#### Logging
 
 > Logging refers to the systematic recording of events and activities in a cloud environment to monitor performance, troubleshoot issues, and enhance security by providing a historical record of system behavior.
 
