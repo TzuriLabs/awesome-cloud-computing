@@ -1,6 +1,4 @@
-# Awesome Cloud Computing
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Cloud Computing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of concepts, cloud platforms, tools, practices and resources to learn, improve cloud computing knowledge.
 
@@ -31,7 +29,6 @@
 - [Community and Conferences](#community-and-conferences)
     - [Community](#community)
     - [Conferences](#conferences)
-
 
 ### Learning Resources
 
@@ -206,3 +203,7 @@ of Standards and Technology).
 - [AWS re:Invent](https://reinvent.awsevents.com/) - Is a learning conference hosted by AWS for the global cloud-computing community.
 - [Microsoft Ignite](https://ignite.microsoft.com/en-US/home) - Is an annual conference for developers, IT professionals and partners, hosted by Microsoft.
 - [OpenInfra](https://openinfra.dev/summit/) - a global collaboration of 110,000 people across 187 countries, builds and operates infrastructure powered by open source software (likes Linux, OpenStack, etc).
+
+## Contributing
+
+Your contributions are always welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
