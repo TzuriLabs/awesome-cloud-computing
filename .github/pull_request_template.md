@@ -16,6 +16,7 @@ Please check all options that are relevant.
 ## Checklist:
 
 - [ ] My code follows the style guidelines of this project.
+- [ ] I have updated any relevant documentation.
 
 ## Additional Notes
 
