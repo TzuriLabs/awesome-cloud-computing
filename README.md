@@ -137,6 +137,7 @@ of Standards and Technology).
 
 - [Grafana](https://grafana.com/) - Is a multi-platform open source analytics and interactive visualization web application.
 - [Prometheus](https://prometheus.io/) - Is an open-source systems monitoring and alerting toolkit.
+- [VictoriaMetrics](https://victoriametrics.com/) - Is a fast, cost-saving, and scalable solution for monitoring and managing time series data by Nokia.
 
 #### Logging
 
