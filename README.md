@@ -38,7 +38,7 @@
 
 #### Basic Concepts
 
-| Resource | Description| Link |
+| Source | Description| Link |
 |----------|------------|------|
 | Amazon Web Service    | Basic definition, benefits and types of cloud computing from AWS (Amazon Web Service). | [What is cloud computing?](https://aws.amazon.com/what-is-cloud-computing/?nc1=h_ls)|
 | Google Cloud Platform | Basic definition, types, deployment models and use case from GCP (Google Cloud Platform). | [What is cloud computing?](https://cloud.google.com/learn/what-is-cloud-computing?hl=en)|
@@ -50,29 +50,37 @@
 | Name | Description | Author |
 |------|-------------|--------|
 | Cloud Native Patterns: Designing Change-tolerant Software | Cloud Native Patternsis your guide to developing strong applications that thrive in the dynamic, distributed, virtual world of the cloud. This book presents a mental model for cloud-native applications, along with the patterns, practices, and tooling that set them apart. | Cornelia Davis |
-| The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing | Cloud Computing is here to stay. As an economically viable way for businesses of all sizes to distribute computing, this technology shows tremendous promise. But the intense hype surrounding the Cloud is making it next to impossible for responsible IT managers and businessdecision-makers to get a clear understanding of what the Cloud really means, what it might do for them, when it is practical, and what their future with the Cloud looks like. |Jothy Rosenberg and  Arthur Mateos |
+| The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing | Cloud Computing is here to stay. As an economically viable way for businesses of all sizes to distribute computing, this technology shows tremendous promise. But the intense hype surrounding the Cloud is making it next to impossible for responsible IT managers and businessdecision-makers to get a clear understanding of what the Cloud really means, what it might do for them, when it is practical, and what their future with the Cloud looks like. | Jothy Rosenberg and  Arthur Mateos |
 
 #### Tutorials
 
 ##### Amazon Web Service
 
-- [Getting Started with AWS.](https://aws.amazon.com/getting-started/)
-- [Hands-on Tutorials](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc&awsf.getting-started-category=*all&awsf.getting-started-content-type=*all)
+| Name | Description | Link |
+|------|-------------|------|
+| Getting Started with AWS. | Learn the fundamentals and start building on Amazon Web Services | [Getting Started with AWS](https://aws.amazon.com/getting-started)|
+| Hands-on Tutorials | Get started with step-by-step tutorials to launch your first application. | [Hands-on Tutorials](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc&awsf.getting-started-category=*all&awsf.getting-started-content-type=*all) |
 
 ##### Azure
 
-- [Getting started with Azure.](https://azure.microsoft.com/en-us/get-started)
-- [Getting started with Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/getting-started?pivots=stack-python)
+| Name | Description | Link |
+|------|-------------|------|
+| Get started with Azure. | Get started with the Azure Quickstart Center. | [Azure Portal Quickstart Center](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-quickstart-center) |
+| Getting started with Azure App Service. | *Azure App Service* enables you to build and host web apps, mobile back ends, and RESTful APIs in the programming language of your choice without managing infrastructure. | [Azure App Service](https://learn.microsoft.com/en-us/azure/app-service) |
 
 ##### DigitalOcean
 
-- [Getting Started With DigitalOcean Cloud Computing.](https://www.digitalocean.com/community/tutorial-series/getting-started-with-cloud-computing)
-- [DigitalOcean Community Tutorials](https://www.digitalocean.com/community/tutorials)
+| Name | Description | Link |
+|------|-------------|------|
+| Getting Started With Cloud Computing Series. | This curriculum introduces open-source cloud computing to a general audience along with the skills necessary to deploy applications and websites securely to the cloud. | [Getting Started With Cloud Computing](https://www.digitalocean.com/community/tutorial-series/getting-started-with-cloud-computing) |
+| DigitalOcean Community Tutorials | Tutorial Series page on DigitalOcean’s community platform. It features a collection of in-depth, multi-part guides covering various topics related to cloud computing, software development, system administration, DevOps, and other tech-related fields. Each series is designed to help users build practical skills step by step. | [Digital Ocean Tutorial Series](https://www.digitalocean.com/community/tags/tutorial-series) |
 
 ##### Google Cloud Platforms
 
-- [Google Cloud quickstarts and tutorials.](https://cloud.google.com/docs/tutorials)
-- [Get started with Google Cloud](https://cloud.google.com/docs/get-started)
+| Name | Description | Link |
+|------|-------------|------|
+| Google Cloud quickstarts and tutorials. | Tutorials section of Google Cloud's documentation. It provides a wide range of step-by-step guides and tutorials covering different Google Cloud services and solutions, such as machine learning, data analytics, cloud infrastructure, Kubernetes, and serverless computing. | [Google Cloud quickstarts and tutorials](https://cloud.google.com/docs/tutorials) |
+| Get started with Google Cloud | Get hands-on experience with free usage of 20+ products, including popular products like AI APIs, Compute Engine, BigQuery, and more. | [Get started with Google Cloud](https://cloud.google.com/docs/get-started) |
 
 #### Certifications
 
