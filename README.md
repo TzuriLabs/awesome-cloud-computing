@@ -38,16 +38,19 @@
 
 #### Basic Concepts
 
-- [AWS](https://aws.amazon.com/what-is-cloud-computing/?nc1=h_ls) - Basic definition, benefits and types of cloud computing from AWS (Amazon Web Service).
-- [GCP](https://cloud.google.com/learn/what-is-cloud-computing?hl=en) - Basic definition, types, deployment models and use case from GCP (Google Cloud Platform).
-- [Linux Foundation](https://training.linuxfoundation.org/blog/perspectives-in-cloud-computing/) - Perspectives In Cloud Computing.
-- [NIST](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) - Basic definition and models of cloud computing from NIST (National Institute
-of Standards and Technology).
+| Resource | Description| Link |
+|----------|------------|------|
+| Amazon Web Service    | Basic definition, benefits and types of cloud computing from AWS (Amazon Web Service). | [What is cloud computing?](https://aws.amazon.com/what-is-cloud-computing/?nc1=h_ls)|
+| Google Cloud Platform | Basic definition, types, deployment models and use case from GCP (Google Cloud Platform). | [What is cloud computing?](https://cloud.google.com/learn/what-is-cloud-computing?hl=en)|
+| Linux Foundation | Perspectives In Cloud Computing. | [Perspectives In Cloud Computing](https://training.linuxfoundation.org/blog/perspectives-in-cloud-computing/) |
+| National Institute of Standards and Technology | Basic definition and models of cloud computing from NIST (National Institute of Standards and Technology). | [The NIST Definition of Cloud Computing](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) |
 
 #### Books
 
-- [Cloud Native Patterns by Cornelia Davis.](https://www.manning.com/books/cloud-native-patterns)
-- [The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing.](https://www.amazon.com/Cloud-Your-Service-Enterprise-Computing/dp/1935182528)
+| Name | Description | Author |
+|------|-------------|--------|
+| Cloud Native Patterns: Designing Change-tolerant Software | Cloud Native Patternsis your guide to developing strong applications that thrive in the dynamic, distributed, virtual world of the cloud. This book presents a mental model for cloud-native applications, along with the patterns, practices, and tooling that set them apart. | Cornelia Davis |
+| The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing | Cloud Computing is here to stay. As an economically viable way for businesses of all sizes to distribute computing, this technology shows tremendous promise. But the intense hype surrounding the Cloud is making it next to impossible for responsible IT managers and businessdecision-makers to get a clear understanding of what the Cloud really means, what it might do for them, when it is practical, and what their future with the Cloud looks like. |Jothy Rosenberg and  Arthur Mateos |
 
 #### Tutorials
 
