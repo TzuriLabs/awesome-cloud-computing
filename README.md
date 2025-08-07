@@ -1,8 +1,17 @@
-# Awesome Cloud Computing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center" style="text-align: center">
+  <h1>Awesome Cloud Computing</h1>
+  <p>
+    A curated list of concepts, cloud platforms, tools, practices and resources to learn,<br>
+    improve cloud computing knowledge.
+  </p>
+  <p>
+    <a href="https://awesome.re">
+      <img alt="Awesome" src="https://awesome.re/badge.svg">
+    </a>
+  </p>
+</div>
 
-> A curated list of concepts, cloud platforms, tools, practices and resources to learn, improve cloud computing knowledge.
-
-## Content
+## Contents
 
 - [Learning Resources](#learning-resources)
     - [Basic Concepts](#basic-concepts)
