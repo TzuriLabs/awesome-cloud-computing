@@ -111,7 +111,6 @@
 | Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | [Pulumi](https://www.pulumi.com/) |
 | Terraform | IAC tool to provision and manage resources in any cloud or data center. | [Terraform](https://www.terraform.io/) |
 
-
 ### Tools & Software
 
 > Collections of tools or software to manage cloud infrastructure.
