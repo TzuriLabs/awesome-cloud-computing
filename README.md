@@ -36,7 +36,7 @@
 
 > Collections of learning resources such as basic concepts of cloud computing, books, tutorials, and certifications.
 
-#### Basic Concepts
+#### > Basic Concepts
 
 | Source | Description| Link |
 |----------|------------|------|
@@ -45,14 +45,14 @@
 | Linux Foundation | Perspectives In Cloud Computing. | [Perspectives In Cloud Computing](https://training.linuxfoundation.org/blog/perspectives-in-cloud-computing/) |
 | National Institute of Standards and Technology | Basic definition and models of cloud computing from NIST (National Institute of Standards and Technology). | [The NIST Definition of Cloud Computing](https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf) |
 
-#### Books
+#### > Books
 
 | Name | Description | Author |
 |------|-------------|--------|
 | Cloud Native Patterns: Designing Change-tolerant Software | Cloud Native Patternsis your guide to developing strong applications that thrive in the dynamic, distributed, virtual world of the cloud. This book presents a mental model for cloud-native applications, along with the patterns, practices, and tooling that set them apart. | Cornelia Davis |
 | The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing | Cloud Computing is here to stay. As an economically viable way for businesses of all sizes to distribute computing, this technology shows tremendous promise. But the intense hype surrounding the Cloud is making it next to impossible for responsible IT managers and businessdecision-makers to get a clear understanding of what the Cloud really means, what it might do for them, when it is practical, and what their future with the Cloud looks like. | Jothy Rosenberg and  Arthur Mateos |
 
-#### Tutorials
+#### > Tutorials
 
 ##### Amazon Web Service
 
@@ -82,7 +82,7 @@
 | Google Cloud quickstarts and tutorials. | Tutorials section of Google Cloud's documentation. It provides a wide range of step-by-step guides and tutorials covering different Google Cloud services and solutions, such as machine learning, data analytics, cloud infrastructure, Kubernetes, and serverless computing. | [Google Cloud quickstarts and tutorials](https://cloud.google.com/docs/tutorials) |
 | Get started with Google Cloud | Get hands-on experience with free usage of 20+ products, including popular products like AI APIs, Compute Engine, BigQuery, and more. | [Get started with Google Cloud](https://cloud.google.com/docs/get-started) |
 
-#### Certifications
+#### > Certifications
 
 ##### Free Certifications
 
@@ -115,7 +115,7 @@
 
 > Collections of tools or software to manage cloud infrastructure.
 
-#### Infrastructure as Code
+#### > Infrastructure as Code
 
 > IaC is the process of managing and provisioning infrastructure through machine-readable configuration files, rather than physical hardware or interactive configuration tools. It helps achieve consistency, scalability, and automation in cloud environments.
 
@@ -127,7 +127,7 @@
 | Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | https://www.pulumi.com/ |
 | Terraform | IAC tool to provision and manage resources in any cloud or data center. | https://www.terraform.io/ |
 
-#### Containerization
+#### > Containerization
 
 > Is a technology that enables the packaging of applications and their dependencies into isolated containers, facilitating consistent deployment across different environments.
 
@@ -158,7 +158,7 @@
 | Portainer | A container management software. | [Portainer](https://www.portainer.io/) |
 | Rancher | A complete software stack for teams deploying containers, particularly Kubernetes clusters. | [Rancher](https://rancher.com/) |
 
-#### Monitoring
+#### > Monitoring
 
 > Collections of tools or software used to monitor your cloud services.
 
@@ -168,7 +168,7 @@
 | Prometheus | Is an open-source systems monitoring and alerting toolkit. | [Prometheus](https://prometheus.io/) |
 | VictoriaMetrics | Is a fast, cost-saving, and scalable solution for monitoring and managing time series data by Nokia. | [VictoriaMetrics](https://victoriametrics.com/) |
 
-#### Logging
+#### > Logging
 
 > Logging refers to the systematic recording of events and activities in a cloud environment to monitor performance, troubleshoot issues, and enhance security by providing a historical record of system behavior.
 
@@ -181,7 +181,7 @@
 
 > Best Practices encompass established guidelines and strategies that help optimize cloud resource, enhance performance, and ensure security and compliance in cloud environments.
 
-#### Cost Optimization
+#### > Cost Optimization
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -189,7 +189,7 @@
 | Google Cloud Cost Optimization | Ttips to optimize your Google Cloud spend. | [Link](https://cloud.google.com/architecture/framework/cost-optimization) |
 | OpenStack Cost Optimization | Guide for optimizing OpenStack costs. | [Link](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/) |
 
-#### Scalability and Performance
+#### > Scalability and Performance
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -201,7 +201,7 @@
 
 > Implementing measures and practices to protect cloud resources, data, and applications from threats, ensuring compliance with regulations, and safeguarding user privacy.
 
-#### Identity & Access Management (IAM)
+#### > Identity & Access Management (IAM)
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -209,7 +209,7 @@
 | Azure Entra ID | Microsoft’s unified identity and access solution, formerly known as Azure Active Directory. | [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) |
 | Google IAM | Provides fine-grained access control and visibility for Google Cloud resources. | [Google IAM](https://cloud.google.com/security/products/iam) |
 
-#### Threat Detection
+#### > Threat Detection
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -217,7 +217,7 @@
 | Azure Defender | Advanced threat protection for workloads in Azure, now part of Microsoft Defender for Cloud. | [Azure Defender](https://azure.microsoft.com/en-us/products/defender-for-cloud/) |
 | Chronicle Security (Google) | Google Cloud’s threat detection and response platform. | [Chronicle Security](https://chronicle.security/) |
 
-#### Secret Management
+#### > Secret Management
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -226,7 +226,7 @@
 | Azure Key Vault | Securely stores secrets, keys, and certificates for use by cloud apps and services. | [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/overview) |
 | Google Secret Manager | Securely stores API keys, passwords, certificates, and other sensitive data. | [Google Secret Manager](https://cloud.google.com/secret-manager) |
 
-#### Compliance & Governance
+#### > Compliance & Governance
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -238,20 +238,20 @@
 
 > Collections of communities or conferences, with focus on cloud computing.
 
-#### Community
+#### > Community
 
 - [AWS Community BUilder](https://aws.amazon.com/developer/community/community-builders/) - Program offers technical resources, education, and networking opportunities to AWS technical enthusiasts and emerging thought leaders who are passionate about sharing knowledge and connecting with the technical community.
 - [Google Cloud Community](https://cloud.google.com/communities) - Meet industry peers, ask questions, collaborate to find answers, and connect with Googlers who are making the products you use every day.
 - [DevOps Exchange](https://www.devops-exchange.io/) - Global community that ignites the passion for DevOps.
 - [OpenStack](https://www.openstack.org/community/) - The Community Team helps developers and users of OpenStack find information relevant for them. The group is made by staff of the OpenStack Foundation and volunteers around the world.
 
-#### Conferences
+#### > Conferences
 
 - [AWS re:Invent](https://reinvent.awsevents.com/) - Is a learning conference hosted by AWS for the global cloud-computing community.
 - [Microsoft Ignite](https://ignite.microsoft.com/en-US/home) - Is an annual conference for developers, IT professionals and partners, hosted by Microsoft.
 - [OpenInfra](https://openinfra.dev/summit/) - a global collaboration of 110,000 people across 187 countries, builds and operates infrastructure powered by open source software (likes Linux, OpenStack, etc).
 
-#### Emerging Trends
+#### > Emerging Trends
 
 > As cloud computing continues to evolve, new trends are shaping the future of how businesses and organizations leverage cloud technologies. Here are some key trends to watch:
 
