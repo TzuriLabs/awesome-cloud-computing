@@ -86,25 +86,31 @@
 
 ##### Free Certifications
 
-- [AWS Educate](https://aws.amazon.com/education/awseducate/)
-- [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS Educate | AWS Educate is a free global program by Amazon that provides students and educators with resources, training, and tools to learn and build skills in cloud computing.| [AWS Educate](https://aws.amazon.com/education/awseducate) |
+| Google Cloud Skills Boost | Google Cloud Skills Boost is a learning platform offering hands-on labs, courses, and certifications to help individuals build expertise in Google Cloud technologies. | [Google Cloud Skills Boost](https://www.cloudskillsboost.google) |
 
 ##### Paid Certifications
 
-- [AWS Certifications](https://aws.amazon.com/certification/)
-- [Google Cloud Certification](https://cloud.google.com/learn/certification?hl=en)
-- [CompTIA Cloud+](https://www.comptia.org/certifications/cloud)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS Certifications | AWS Certifications validate expertise in Amazon Web Services, offering globally recognized credentials across various roles like cloud practitioner, architect, developer, and operations.| [AWS Certifications](https://aws.amazon.com/certification) |
+| Google Cloud Certification | Google Cloud Certification validates expertise in Google Cloud technologies, offering globally recognized credentials for roles like cloud engineer, architect, data engineer, and more. | [GCP Certification](https://cloud.google.com/learn/certification?hl=en)|
+| CompTIA Cloud+ | CompTIA Cloud+ is a vendor-neutral certification that validates the skills needed to deploy, secure, and optimize cloud infrastructure services in multi-cloud environments. | [CompTIA Cloud+](https://www.comptia.org/certifications/cloud)|
 
 ### Platforms
 
-> Public, private or hybrid platforms. Open source or enterprise platforms.
+> List of public, private or hybrid cloud computing platforms. Open source or enterprise platforms.
 
-- [AWS](https://aws.amazon.com/console/) - Cloud platform offering over 200 services for computing, storage, databases, machine learning, and more.
-- [Azure](https://azure.microsoft.com/en-us) - Cloud computing platform providing a wide range of integrated services, particularly excelling in hybrid cloud solutions and seamless integration with Microsoft's ecosystem.
-- [GCP](https://cloud.google.com/?hl=en) - Cloud platform offering over 200 services for computing, storage, databases, machine learning, and more.
-- [DigitalOcean](https://www.digitalocean.com/) - Developer-friendly platform with simple tools and predictable pricing.
-- [Vultr](https://www.vultr.com/) - Cloud computing platform offering SSD-powered hosting, bare metal servers, and globally distributed data centers focused on delivering simplicity and reliable performance.
-- [OpenStack](https://www.openstack.org/) - An open-source cloud computing platform enabling organizations to create and manage their own private clouds, providing Infrastructure-as-a-Service through a set of interrelated services.
+| Name | Description | Link |
+|------|-------------|------|
+| Ansible | An open-source automation tool for configuration management and application deployment, widely used for IaC. | [Ansible](https://www.ansible.com/) |
+| AWS CDK | Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html). | [AWS CDK](https://aws.amazon.com/cdk/) |
+| Chef | An open source systems management and cloud infrastructure. automation platform | [Chef](https://www.chef.io/) |
+| Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | [Pulumi](https://www.pulumi.com/) |
+| Terraform | IAC tool to provision and manage resources in any cloud or data center. | [Terraform](https://www.terraform.io/) |
+
 
 ### Tools & Software
 
@@ -114,11 +120,13 @@
 
 > IaC is the process of managing and provisioning infrastructure through machine-readable configuration files, rather than physical hardware or interactive configuration tools. It helps achieve consistency, scalability, and automation in cloud environments.
 
-- [Ansible](https://www.ansible.com/) - An open-source automation tool for configuration management and application deployment, widely used for IaC.
-- [AWS CDK](https://aws.amazon.com/cdk/) - Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
-- [Chef](https://www.chef.io/) - An open source systems management and cloud infrastructure. automation platform
-- [Pulumi](https://www.pulumi.com/) - Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources.
-- [Terraform](https://www.terraform.io/) - IAC tool to provision and manage resources in any cloud or data center.
+| Name | Description | Link |
+|------|-------------|------|
+| Ansible | An open-source automation tool for configuration management and application deployment, widely used for IaC. | https://www.ansible.com/ |
+| AWS CDK | Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html). | https://aws.amazon.com/cdk/ |
+| Chef | An open source systems management and cloud infrastructure. automation platform | https://www.chef.io/ |
+| Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | https://www.pulumi.com/ |
+| Terraform | IAC tool to provision and manage resources in any cloud or data center. | https://www.terraform.io/ |
 
 #### Containerization
 
@@ -126,37 +134,49 @@
 
 ##### Container Engines
 
-- [Docker](https://www.docker.com/) - Is a software platform that allows you to build, test, and deploy applications quickly using containers.
-- [Podman](https://podman.io/) - A daemonless container engine for managing OCI containers, providing a Docker-compatible CLI.
+| Name | Description | Link |
+|------|-------------|------|
+| Docker | Is a software platform that allows you to build, test, and deploy applications quickly using containers. | [Docker](https://www.docker.com/) |
+| Podman | A daemonless container engine for managing OCI containers, providing a Docker-compatible CLI. | [Podman](https://podman.io/) |
+| containerd | An industry-standard core container runtime used by Docker, Kubernetes, and other systems to manage container lifecycle. | [containerd](https://containerd.io/) |
 
 ##### Container Orchestration
 
-- [Kubernetes](https://kubernetes.io/) - Is an open source system for automating deployment, scaling, and management of containerized applications.
-- [OpenShift](https://www.openshift.com/) - A Kubernetes-based platform offering enterprise-grade security, monitoring, and tools.
-- [Nomad](https://www.nomadproject.io/) - A simple, flexible workload orchestrator that supports containers and non-containerized applications.
-- [Docker Swarm](https://docs.docker.com/engine/swarm/) -  Is an advanced feature for managing a cluster of Docker daemons.
+| Name | Description | Link |
+|------|-------------|------|
+| Kubernetes | Is an open source system for automating deployment, scaling, and management of containerized applications. | [Kubernetes](https://kubernetes.io/) |
+| OpenShift | A Kubernetes-based platform offering enterprise-grade security, monitoring, and tools. | [OpenShift](https://www.openshift.com/) |
+| Nomad | A simple, flexible workload orchestrator that supports containers and non-containerized applications. | [Nomad](https://www.nomadproject.io/) |
+| Docker Swarm | Is an advanced feature for managing a cluster of Docker daemons. | [Docker Swarm](https://docs.docker.com/engine/swarm/) |
+| AWS Fargate | A serverless compute engine for containers that works with Amazon ECS and EKS, eliminating the need to manage servers. | [AWS Fargate](https://aws.amazon.com/fargate/) |
 
 ##### Management Tools
 
-- [Docker Compose](https://docs.docker.com/compose/) - A tool for defining and running multi-container Docker applications.
-- [Helm](https://helm.sh/) - A package manager for Kubernetes to deploy pre-configured applications as charts.
-- [Portainer](https://www.portainer.io/) - A container management software.
-- [Rancher](https://rancher.com/) - A complete software stack for teams deploying containers, particularly Kubernetes clusters.
+| Name | Description | Link |
+|------|-------------|------|
+| Docker Compose | A tool for defining and running multi-container Docker applications. | [Docker Compose](https://docs.docker.com/compose/) |
+| Helm | A package manager for Kubernetes to deploy pre-configured applications as charts. | [Helm](https://helm.sh/) |
+| Portainer | A container management software. | [Portainer](https://www.portainer.io/) |
+| Rancher | A complete software stack for teams deploying containers, particularly Kubernetes clusters. | [Rancher](https://rancher.com/) |
 
 #### Monitoring
 
 > Collections of tools or software used to monitor your cloud services.
 
-- [Grafana](https://grafana.com/) - Is a multi-platform open source analytics and interactive visualization web application.
-- [Prometheus](https://prometheus.io/) - Is an open-source systems monitoring and alerting toolkit.
-- [VictoriaMetrics](https://victoriametrics.com/) - Is a fast, cost-saving, and scalable solution for monitoring and managing time series data by Nokia.
+| Name | Description | Link |
+|:---|:---|:---|
+| Grafana | Is a multi-platform open source analytics and interactive visualization web application. | [Grafana](https://grafana.com/) |
+| Prometheus | Is an open-source systems monitoring and alerting toolkit. | [Prometheus](https://prometheus.io/) |
+| VictoriaMetrics | Is a fast, cost-saving, and scalable solution for monitoring and managing time series data by Nokia. | [VictoriaMetrics](https://victoriametrics.com/) |
 
 #### Logging
 
 > Logging refers to the systematic recording of events and activities in a cloud environment to monitor performance, troubleshoot issues, and enhance security by providing a historical record of system behavior.
 
-- [ELK](https://www.elastic.co/elastic-stack) - Is an acronym that stands for Elasticsearch, Logstash, and Kibana. Together, these three components provide a powerful, integrated solution for managing large volumes of data, offering real-time insights and a comprehensive analytics suite.
-- [Fluentd](https://www.fluentd.org/) - is a cross-platform open-source data collection software project originally developed at Treasure Data.
+| Name | Description | Link |
+|------|-------------|------|
+| ELK | Is an acronym that stands for Elasticsearch, Logstash, and Kibana. Together, these three components provide a powerful, integrated solution for managing large volumes of data, offering real-time insights and a comprehensive analytics suite. | [ELK](https://www.elastic.co/elastic-stack) |
+| Fluentd | Is a cross-platform open-source data collection software project originally developed at Treasure Data. | [Fluentd](https://www.fluentd.org/) |
 
 ### Best Practices
 
@@ -164,15 +184,19 @@
 
 #### Cost Optimization
 
-- [Cost Optimization with AWS](https://aws.amazon.com/aws-cost-management/cost-optimization/)
-- [Cost Optimization with Google Cloud](https://cloud.google.com/architecture/framework/cost-optimization)
-- [Optimizing OpenStack Cost](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS Cost Optimization | Best practices for optimizing your AWS costs using AWS-native tools. | [Link](https://aws.amazon.com/aws-cost-management/cost-optimization/) |
+| Google Cloud Cost Optimization | Ttips to optimize your Google Cloud spend. | [Link](https://cloud.google.com/architecture/framework/cost-optimization) |
+| OpenStack Cost Optimization | Guide for optimizing OpenStack costs. | [Link](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/) |
 
 #### Scalability and Performance
 
-- [AWS Auto Scaling](https://aws.amazon.com/autoscaling/)
-- [Google Cloud Autoscaler](https://cloud.google.com/compute/docs/autoscaler)
-- [OpenStack Autoscaling](https://docs.openstack.org/auto-scaling-sig/latest/theory-of-auto-scaling.html)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS Auto Scaling | Automatically adjusts your Amazon EC2 capacity to maintain performance and control costs. | [AWS Auto Scaling](https://aws.amazon.com/autoscaling/) |
+| Google Cloud Autoscaler | Dynamically resizes virtual machine instances to match demand in Google Cloud. | [Google Cloud Autoscaler](https://cloud.google.com/compute/docs/autoscaler) |
+| OpenStack Autoscaling | Theory and implementation guide for auto-scaling in OpenStack environments. | [OpenStack Autoscaling](https://docs.openstack.org/auto-scaling-sig/latest/theory-of-auto-scaling.html) |
 
 ### Security
 
@@ -180,27 +204,36 @@
 
 #### Identity & Access Management (IAM)
 
-- [AWS IAM](https://aws.amazon.com/iam/)
-- [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)
-- [Google IAM](https://cloud.google.com/security/products/iam)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS IAM | Manage access to AWS services and resources securely with fine-grained permissions. | [AWS IAM](https://aws.amazon.com/iam/) |
+| Azure Entra ID | Microsoft’s unified identity and access solution, formerly known as Azure Active Directory. | [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) |
+| Google IAM | Provides fine-grained access control and visibility for Google Cloud resources. | [Google IAM](https://cloud.google.com/security/products/iam) |
 
 #### Threat Detection
 
-- [AWS GuardDuty](https://aws.amazon.com/guardduty/)
-- [Google Cloud Security Command Center](https://cloud.google.com/security/products/security-command-center?hl=en)
-- [OpenStack Threat Analysis](https://wiki.openstack.org/wiki/Security/Threat_Analysis)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS GuardDuty | Threat detection service that continuously monitors for malicious activity and unauthorized behavior. | [AWS GuardDuty](https://aws.amazon.com/guardduty/) |
+| Azure Defender | Advanced threat protection for workloads in Azure, now part of Microsoft Defender for Cloud. | [Azure Defender](https://azure.microsoft.com/en-us/products/defender-for-cloud/) |
+| Chronicle Security (Google) | Google Cloud’s threat detection and response platform. | [Chronicle Security](https://chronicle.security/) |
 
 #### Secret Management
 
-- [AWS Secret Manager](https://aws.amazon.com/secrets-manager/)
-- [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)
-- [HashiCorp Vault](https://www.vaultproject.io/)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS Secrets Manager | Securely stores and manages secrets such as API keys, database credentials, and tokens. | [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) |
+| AWS Systems Manager Parameter Store | Alternative to Secrets Manager, supports secure string parameters. | [Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) |
+| Azure Key Vault | Securely stores secrets, keys, and certificates for use by cloud apps and services. | [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/overview) |
+| Google Secret Manager | Securely stores API keys, passwords, certificates, and other sensitive data. | [Google Secret Manager](https://cloud.google.com/secret-manager) |
 
 #### Compliance & Governance
 
-- [AWS Artifact](https://aws.amazon.com/artifact/)
-- [Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
-- [OpenStack Compliance](https://docs.openstack.org/security-guide/compliance.html)
+| Name | Description | Link |
+|------|-------------|------|
+| AWS Artifact | Provides access to AWS compliance reports and security/compliance documentation. | [AWS Artifact](https://aws.amazon.com/artifact/) |
+| Azure Compliance Manager | Helps manage compliance activities and provides assessments and actionable insights. | [Azure Compliance](https://learn.microsoft.com/en-us/compliance/regulatory/) |
+| Google Assured Workloads | Supports compliance requirements like FedRAMP, HIPAA, and CJIS in Google Cloud. | [Assured Workloads](https://cloud.google.com/assured-workloads) |
 
 ### Community and Conferences
 
