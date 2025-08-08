@@ -61,46 +61,46 @@
 | Cloud Native Patterns: Designing Change-tolerant Software | Cloud Native Patternsis your guide to developing strong applications that thrive in the dynamic, distributed, virtual world of the cloud. This book presents a mental model for cloud-native applications, along with the patterns, practices, and tooling that set them apart. | Cornelia Davis |
 | The Cloud at Your Service: The When, How, and Why of Enterprise Cloud Computing | Cloud Computing is here to stay. As an economically viable way for businesses of all sizes to distribute computing, this technology shows tremendous promise. But the intense hype surrounding the Cloud is making it next to impossible for responsible IT managers and businessdecision-makers to get a clear understanding of what the Cloud really means, what it might do for them, when it is practical, and what their future with the Cloud looks like. | Jothy Rosenberg and  Arthur Mateos |
 
-#### Tutorials
+#### **Tutorials**
 
-##### Amazon Web Service
+##### **Amazon Web Service**
 
 | Name | Description | Link |
 |------|-------------|------|
 | Getting Started with AWS. | Learn the fundamentals and start building on Amazon Web Services | [Getting Started with AWS](https://aws.amazon.com/getting-started)|
 | Hands-on Tutorials | Get started with step-by-step tutorials to launch your first application. | [Hands-on Tutorials](https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.content-latest-publish-date&getting-started-all.sort-order=desc&awsf.getting-started-category=*all&awsf.getting-started-content-type=*all) |
 
-##### Azure
+##### **Azure**
 
 | Name | Description | Link |
 |------|-------------|------|
 | Get started with Azure. | Get started with the Azure Quickstart Center. | [Azure Portal Quickstart Center](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-quickstart-center) |
 | Getting started with Azure App Service. | *Azure App Service* enables you to build and host web apps, mobile back ends, and RESTful APIs in the programming language of your choice without managing infrastructure. | [Azure App Service](https://learn.microsoft.com/en-us/azure/app-service) |
 
-##### DigitalOcean
+##### **DigitalOcean**
 
 | Name | Description | Link |
 |------|-------------|------|
 | Getting Started With Cloud Computing Series. | This curriculum introduces open-source cloud computing to a general audience along with the skills necessary to deploy applications and websites securely to the cloud. | [Getting Started With Cloud Computing](https://www.digitalocean.com/community/tutorial-series/getting-started-with-cloud-computing) |
 | DigitalOcean Community Tutorials | Tutorial Series page on DigitalOcean’s community platform. It features a collection of in-depth, multi-part guides covering various topics related to cloud computing, software development, system administration, DevOps, and other tech-related fields. Each series is designed to help users build practical skills step by step. | [Digital Ocean Tutorial Series](https://www.digitalocean.com/community/tags/tutorial-series) |
 
-##### Google Cloud Platforms
+##### **Google Cloud Platforms**
 
 | Name | Description | Link |
 |------|-------------|------|
 | Google Cloud quickstarts and tutorials. | Tutorials section of Google Cloud's documentation. It provides a wide range of step-by-step guides and tutorials covering different Google Cloud services and solutions, such as machine learning, data analytics, cloud infrastructure, Kubernetes, and serverless computing. | [Google Cloud quickstarts and tutorials](https://cloud.google.com/docs/tutorials) |
 | Get started with Google Cloud | Get hands-on experience with free usage of 20+ products, including popular products like AI APIs, Compute Engine, BigQuery, and more. | [Get started with Google Cloud](https://cloud.google.com/docs/get-started) |
 
-#### Certifications
+#### **Certifications**
 
-##### Free Certifications
+##### **Free Certifications**
 
 | Name | Description | Link |
 |------|-------------|------|
 | AWS Educate | AWS Educate is a free global program by Amazon that provides students and educators with resources, training, and tools to learn and build skills in cloud computing.| [AWS Educate](https://aws.amazon.com/education/awseducate) |
 | Google Cloud Skills Boost | Google Cloud Skills Boost is a learning platform offering hands-on labs, courses, and certifications to help individuals build expertise in Google Cloud technologies. | [Google Cloud Skills Boost](https://www.cloudskillsboost.google) |
 
-##### Paid Certifications
+##### **Paid Certifications**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -112,35 +112,41 @@
 
 > List of public, private or hybrid cloud computing platforms. Open source or enterprise platforms.
 
-| Name | Description | Link |
-|------|-------------|------|
-| Ansible | An open-source automation tool for configuration management and application deployment, widely used for IaC. | [Ansible](https://www.ansible.com/) |
-| AWS CDK | Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html). | [AWS CDK](https://aws.amazon.com/cdk/) |
-| Chef | An open source systems management and cloud infrastructure. automation platform | [Chef](https://www.chef.io/) |
-| Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | [Pulumi](https://www.pulumi.com/) |
-| Terraform | IAC tool to provision and manage resources in any cloud or data center. | [Terraform](https://www.terraform.io/) |
+| Platform                         | Description                                                                                                                                                                                                 | Official Website                        |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| AWS (Amazon Web Services)    | A comprehensive and widely adopted cloud platform offering over 200 fully featured services, including computing, storage, databases, machine learning, and analytics.                                    | [aws.amazon.com](https://aws.amazon.com/console/) |
+| Azure (Microsoft Azure)      | Microsoft’s cloud computing platform providing a wide range of integrated services including hybrid cloud solutions, DevOps tools, and enterprise-grade security and compliance.                          | [azure.microsoft.com](https://azure.microsoft.com/en-us) |
+| GCP (Google Cloud Platform)  | A suite of cloud computing services from Google that includes computing, data storage, data analytics, and machine learning, known for deep AI/ML integration and Kubernetes leadership.                  | [cloud.google.com](https://cloud.google.com/?hl=en) |
+| DigitalOcean                 | A developer-friendly cloud platform known for simplicity, predictable pricing, and tools optimized for deploying and scaling web applications and services.                                               | [digitalocean.com](https://www.digitalocean.com/) |
+| Vultr                        | Cloud computing platform offering SSD-powered virtual machines, bare metal servers, and a variety of global locations, focusing on ease of use and flexible performance options.                        | [vultr.com](https://www.vultr.com/) |
+| OpenStack                    | An open-source cloud computing platform that provides Infrastructure-as-a-Service (IaaS), enabling organizations to control large pools of compute, storage, and networking resources in private clouds. | [openstack.org](https://www.openstack.org/) |
+| OCI (Oracle Cloud Infrastructure) | Oracle’s cloud platform delivering high-performance computing, autonomous services, and strong support for enterprise workloads, databases, and hybrid architectures.                                | [oracle.com/cloud](https://www.oracle.com/cloud/) |
+| IBM Cloud                    | Cloud computing platform from IBM that supports both virtual and bare metal servers, offering integrated services in AI, blockchain, and data analytics.                                                  | [ibm.com/cloud](https://www.ibm.com/cloud) |
+| Linode           | A cloud hosting provider offering affordable Linux virtual machines with a focus on simplicity, performance, and developer-centric tools.                                                                | [linode.com](https://www.linode.com/) |
+| Hetzner Cloud                | A German-based cloud provider offering cost-effective virtual machines, storage, and networking solutions with data centers in Europe.                                                                  | [hetzner.com/cloud](https://www.hetzner.com/cloud) |
 
 ### Tools & Software
 
 > Collections of tools or software to manage cloud infrastructure.
 
-#### Infrastructure as Code
+#### **Infrastructure as Code**
 
 > IaC is the process of managing and provisioning infrastructure through machine-readable configuration files, rather than physical hardware or interactive configuration tools. It helps achieve consistency, scalability, and automation in cloud environments.
 
-| Name | Description | Link |
+| Name | Description | Official Documentation |
 |------|-------------|------|
-| Ansible | An open-source automation tool for configuration management and application deployment, widely used for IaC. | https://www.ansible.com/ |
-| AWS CDK | Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html). | https://aws.amazon.com/cdk/ |
-| Chef | An open source systems management and cloud infrastructure. automation platform | https://www.chef.io/ |
-| Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | https://www.pulumi.com/ |
-| Terraform | IAC tool to provision and manage resources in any cloud or data center. | https://www.terraform.io/ |
+| Ansible | An open-source automation tool for configuration management and application deployment, widely used for IaC. | [Ansible Community Documentation](https://www.ansible.com) |
+| AWS CDK | Is an open-source software development framework for defining cloud infrastructure in code and provisioning it through [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html). | [AWS Cloud Development Kit](https://aws.amazon.com/cdk) |
+| Chef | An open source systems management and cloud infrastructure. automation platform | [Chef Documentation](https://docs.chef.io) |
+| Pulumi | Is an infrastructure-as-code platform for full-stack developers and cloud engineers who are interested in using a general-purpose programming language for their cloud resources. | [Pulumi Docs](https://www.pulumi.com/docs) |
+| Terraform | IAC tool to provision and manage resources in any cloud or data center. | [Terraform Documentation](https://developer.hashicorp.com/terraform/docs) |
+| OpenTofu | A community-driven open source fork of Terraform, fully compatible with existing Terraform configurations and providers. | [OpenTofu Documentation](https://opentofu.org/docs) |
 
-#### Containerization
+#### **Containerization**
 
 > Is a technology that enables the packaging of applications and their dependencies into isolated containers, facilitating consistent deployment across different environments.
 
-##### Container Engines
+##### **Container Engines**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -148,7 +154,7 @@
 | Podman | A daemonless container engine for managing OCI containers, providing a Docker-compatible CLI. | [Podman](https://podman.io/) |
 | containerd | An industry-standard core container runtime used by Docker, Kubernetes, and other systems to manage container lifecycle. | [containerd](https://containerd.io/) |
 
-##### Container Orchestration
+##### **Container Orchestration**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -158,7 +164,7 @@
 | Docker Swarm | Is an advanced feature for managing a cluster of Docker daemons. | [Docker Swarm](https://docs.docker.com/engine/swarm/) |
 | AWS Fargate | A serverless compute engine for containers that works with Amazon ECS and EKS, eliminating the need to manage servers. | [AWS Fargate](https://aws.amazon.com/fargate/) |
 
-##### Management Tools
+##### **Management Tools**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -167,7 +173,7 @@
 | Portainer | A container management software. | [Portainer](https://www.portainer.io/) |
 | Rancher | A complete software stack for teams deploying containers, particularly Kubernetes clusters. | [Rancher](https://rancher.com/) |
 
-#### Monitoring
+#### **Monitoring**
 
 > Collections of tools or software used to monitor your cloud services.
 
@@ -177,7 +183,7 @@
 | Prometheus | Is an open-source systems monitoring and alerting toolkit. | [Prometheus](https://prometheus.io/) |
 | VictoriaMetrics | Is a fast, cost-saving, and scalable solution for monitoring and managing time series data by Nokia. | [VictoriaMetrics](https://victoriametrics.com/) |
 
-#### Logging
+#### **Logging**
 
 > Logging refers to the systematic recording of events and activities in a cloud environment to monitor performance, troubleshoot issues, and enhance security by providing a historical record of system behavior.
 
@@ -188,17 +194,17 @@
 
 ### Best Practices
 
-> Best Practices encompass established guidelines and strategies that help optimize cloud resource, enhance performance, and ensure security and compliance in cloud environments.
+> Best Practices encompass established guidelines and strategies that help optimize cloud resource, enhance performance, and ensure security and compliance in cloud environments.Google Cloud Cost Optimization
 
-#### Cost Optimization
+#### **Cost Optimization**
 
 | Name | Description | Link |
 |------|-------------|------|
-| AWS Cost Optimization | Best practices for optimizing your AWS costs using AWS-native tools. | [Link](https://aws.amazon.com/aws-cost-management/cost-optimization/) |
-| Google Cloud Cost Optimization | Ttips to optimize your Google Cloud spend. | [Link](https://cloud.google.com/architecture/framework/cost-optimization) |
-| OpenStack Cost Optimization | Guide for optimizing OpenStack costs. | [Link](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/) |
+| AWS Cost Optimization | Best practices for optimizing your AWS costs using AWS-native tools. | [Cost Optimization with AWS](https://aws.amazon.com/aws-cost-management/cost-optimization/) |
+| Google Cloud Cost Optimization | Ttips to optimize your Google Cloud spend. | [Well-Architected Framework: Cost optimization pillar](https://cloud.google.com/architecture/framework/cost-optimization) |
+| OpenStack Cost Optimization | Guide for optimizing OpenStack costs. | [7 Best Practices for Optimizing OpenStack Costs](https://superuser.openinfra.dev/articles/7-best-practices-for-optimizing-openstack-costs/) |
 
-#### Scalability and Performance
+#### **Scalability and Performance**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -210,7 +216,7 @@
 
 > Implementing measures and practices to protect cloud resources, data, and applications from threats, ensuring compliance with regulations, and safeguarding user privacy.
 
-#### Identity & Access Management (IAM)
+#### **Identity & Access Management (IAM)**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -218,7 +224,7 @@
 | Azure Entra ID | Microsoft’s unified identity and access solution, formerly known as Azure Active Directory. | [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) |
 | Google IAM | Provides fine-grained access control and visibility for Google Cloud resources. | [Google IAM](https://cloud.google.com/security/products/iam) |
 
-#### Threat Detection
+#### **Threat Detection**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -226,7 +232,7 @@
 | Azure Defender | Advanced threat protection for workloads in Azure, now part of Microsoft Defender for Cloud. | [Azure Defender](https://azure.microsoft.com/en-us/products/defender-for-cloud/) |
 | Chronicle Security (Google) | Google Cloud’s threat detection and response platform. | [Chronicle Security](https://chronicle.security/) |
 
-#### Secret Management
+#### **Secret Management**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -235,7 +241,7 @@
 | Azure Key Vault | Securely stores secrets, keys, and certificates for use by cloud apps and services. | [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/overview) |
 | Google Secret Manager | Securely stores API keys, passwords, certificates, and other sensitive data. | [Google Secret Manager](https://cloud.google.com/secret-manager) |
 
-#### Compliance & Governance
+#### **Compliance & Governance**
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -247,20 +253,20 @@
 
 > Collections of communities or conferences, with focus on cloud computing.
 
-#### Community
+#### **Community**
 
 - [AWS Community BUilder](https://aws.amazon.com/developer/community/community-builders/) - Program offers technical resources, education, and networking opportunities to AWS technical enthusiasts and emerging thought leaders who are passionate about sharing knowledge and connecting with the technical community.
 - [Google Cloud Community](https://cloud.google.com/communities) - Meet industry peers, ask questions, collaborate to find answers, and connect with Googlers who are making the products you use every day.
 - [DevOps Exchange](https://www.devops-exchange.io/) - Global community that ignites the passion for DevOps.
 - [OpenStack](https://www.openstack.org/community/) - The Community Team helps developers and users of OpenStack find information relevant for them. The group is made by staff of the OpenStack Foundation and volunteers around the world.
 
-#### Conferences
+#### **Conferences**
 
 - [AWS re:Invent](https://reinvent.awsevents.com/) - Is a learning conference hosted by AWS for the global cloud-computing community.
 - [Microsoft Ignite](https://ignite.microsoft.com/en-US/home) - Is an annual conference for developers, IT professionals and partners, hosted by Microsoft.
 - [OpenInfra](https://openinfra.dev/summit/) - a global collaboration of 110,000 people across 187 countries, builds and operates infrastructure powered by open source software (likes Linux, OpenStack, etc).
 
-#### Emerging Trends
+#### **Emerging Trends**
 
 > As cloud computing continues to evolve, new trends are shaping the future of how businesses and organizations leverage cloud technologies. Here are some key trends to watch:
 
