@@ -1,7 +1,8 @@
 <div align="center" style="text-align: center">
   <h1>Awesome Cloud Computing</h1>
   <p>
-    A curated list of concepts, cloud platforms, tools, practices and resources to learn,<br>
+    A curated list of concepts, cloud platforms, tools, practices and resources to learn,
+    <br>
     improve cloud computing knowledge.
   </p>
   <p>
@@ -263,6 +264,7 @@
 #### **Conferences**
 
 - [AWS re:Invent](https://reinvent.awsevents.com/) - Is a learning conference hosted by AWS for the global cloud-computing community.
+- [AWS Community Day](https://aws.amazon.com/events/community-day) - AWS Community Day events are community-led conferences where event logistics and content is planned, sourced, and delivered by community leaders. They feature technical discussions, workshops, and hands-on labs led by expert AWS users and industry leaders from around the world. Community Day events deliver a peer-to-peer learning experience, providing developers with a venue for them to acquire AWS knowledge in their preferred way: from one another. In many ways they are events put on "by the community, for the community."
 - [Microsoft Ignite](https://ignite.microsoft.com/en-US/home) - Is an annual conference for developers, IT professionals and partners, hosted by Microsoft.
 - [OpenInfra](https://openinfra.dev/summit/) - a global collaboration of 110,000 people across 187 countries, builds and operates infrastructure powered by open source software (likes Linux, OpenStack, etc).
 
@@ -274,6 +276,7 @@
 - [Multicloud Strategy](https://cloud.google.com/learn/what-is-multicloud?hl=en) - Multicloud is when an organization uses cloud computing services from at least two cloud providers to run their applications.
 - [Edge Computing](https://aws.amazon.com/what-is/edge-computing/) - Is the process of bringing information storage and computing abilities closer to the devices that produce that information and the users who consume it.
 - [Artificial Intelligence (AI) Integration](https://aws.amazon.com/ai/services/) - AI and machine learning are increasingly integrated into cloud services, allowing for smarter data analysis and automation of business processes.
+- [Cloud-Native Security (Shift-Left Security)](https://www.paloaltonetworks.com/blog/cloud-security/shift-left-code-cloud-integration) - Integrating security early in the development lifecycle, ensuring applications are secure from the start. Tools like AWS Security Hub and Open Policy Agent (OPA) are key players.
 
 ## Contributing
 
