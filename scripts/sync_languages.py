@@ -158,13 +158,24 @@ def sync_languages():
             console.print("[yellow]Missing folder:[/yellow] docs/{locale}/")
 
 
+class PythonName:
+    def __init__(self, value: str):
+        self.value = value
+
+
 class MkDocsLoader(yaml.FullLoader):
     pass
 
 
 def python_name_constructor(loader, suffix, node):
-    # Return the full python path as string
-    return f"!!python/name:{suffix}"
+    return PythonName(suffix)
+
+
+def python_name_representer(dumper, data):
+    return dumper.represent_scalar(
+        f"tag:yaml.org,2002:python/name:{data.value}",
+        "",
+    )
 
 
 MkDocsLoader.add_multi_constructor(
@@ -172,9 +183,10 @@ MkDocsLoader.add_multi_constructor(
     python_name_constructor,
 )
 
+yaml.add_representer(PythonName, python_name_representer)
+
 
 def main():
-    # print panel
     console.print(
         Panel.fit(
             "Syncing languages...",
@@ -183,7 +195,6 @@ def main():
         )
     )
     sync_languages()
-    # print("Done. Run: mkdocs serve")
     console.print("[green]Done. Run: $ mkdocs serve[/green]")
 
 
