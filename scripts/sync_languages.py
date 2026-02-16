@@ -21,7 +21,6 @@ def load_yaml(path: Path):
         print(f"Error: {path} not found")
         sys.exit(1)
     with path.open("r", encoding="utf-8") as f:
-        # return yaml.load(f, Loader=yaml.FullLoader)
         return yaml.load(f, Loader=MkDocsLoader)
 
 
