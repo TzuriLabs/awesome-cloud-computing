@@ -49,3 +49,38 @@ You can contribute by:
 Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting changes.
 
 ---
+
+## Contributors
+
+<table>
+  <tr>
+      <td align="center">
+          <a href="https://github.com/danielcristho">
+              <img src="https://avatars.githubusercontent.com/u/69733783?v=4" width="100;" alt="danielcristho"/>
+              <br />
+              <sub><b>Daniel Cristho</b></sub>
+          </a>
+      </td>
+      <td align="center">
+          <a href="https://github.com/sanchiitvijay">
+              <img src="https://avatars.githubusercontent.com/u/71404343?v=4" width="100;" alt="sanchiitvijay"/>
+              <br />
+              <sub><b>Sanchit Vijay</b></sub>
+          </a>
+      </td>
+      <td align="center">
+          <a href="https://github.com/JackWuWeMo">
+              <img src="https://avatars.githubusercontent.com/u/110658105?v=4" width="100;" alt="JackWuWeMo"/>
+              <br />
+              <sub><b>Jack Wu</b></sub>
+          </a>
+      </td>
+      <td align="center">
+          <a href="https://github.com/yehezkiel1086">
+              <img src="https://avatars.githubusercontent.com/u/55269870?v=4" width="100;" alt="yehezkiel1086"/>
+              <br />
+              <sub><b>Yehezkiel Wiradhika</b></sub>
+          </a>
+      </td>
+  </tr>
+</table>
