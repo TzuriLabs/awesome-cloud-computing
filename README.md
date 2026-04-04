@@ -7,8 +7,8 @@
     <a href="https://awesome.re">
       <img alt="Awesome" src="https://awesome.re/badge.svg">
     </a>
-    <a href="https://github.com/danielcristho/awesome-cloud-computing/actions/workflows/check.yml">
-      <img alt="Check" src="https://github.com/danielcristho/awesome-cloud-computing/actions/workflows/check.yml/badge.svg">
+    <a href="https://github.com/danielcristho/awesome-cloud-computing/actions/workflows/test.yml">
+      <img alt="Test" src="https://github.com/danielcristho/awesome-cloud-computing/actions/workflows/test.yml/badge.svg">
     </a>
     <a href="https://github.com/danielcristho/awesome-cloud-computing/actions/workflows/links.yml">
       <img alt="Links Check" src="https://github.com/danielcristho/awesome-cloud-computing/actions/workflows/links.yml/badge.svg">
