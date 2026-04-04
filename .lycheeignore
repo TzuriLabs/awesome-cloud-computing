@@ -35,11 +35,14 @@ https://example.org
 https://your-domain.com
 https://yourdomain.com
 https://yourusername.github.io
-https://awesome-cloud.com
+https://awesome-clouds.com/
+https://awesome-clouds.com
 
 <!-- # Root-relative links handled by MkDocs -->
-/
+/id/
 /id
+/en/
+/en
 
 <!-- # Missing translation files -->
 docs/id/.*\.md
