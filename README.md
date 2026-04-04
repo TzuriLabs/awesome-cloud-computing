@@ -20,8 +20,6 @@
   </p>
 </div>
 
----
-
 ## About
 
 This repository provides a structured list of cloud computing resources, including platforms, tools, architectures, etc.
@@ -48,8 +46,6 @@ You can contribute by:
 
 Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting changes.
 
----
-
 ## Contributors
 
 <table>
@@ -62,17 +58,17 @@ Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting cha
           </a>
       </td>
       <td align="center">
-          <a href="https://github.com/sanchiitvijay">
-              <img src="https://avatars.githubusercontent.com/u/71404343?v=4" width="100;" alt="sanchiitvijay"/>
-              <br />
-              <sub><b>Sanchit Vijay</b></sub>
-          </a>
-      </td>
-      <td align="center">
           <a href="https://github.com/JackWuWeMo">
               <img src="https://avatars.githubusercontent.com/u/110658105?v=4" width="100;" alt="JackWuWeMo"/>
               <br />
               <sub><b>Jack Wu</b></sub>
+          </a>
+      </td>
+      <td align="center">
+          <a href="https://github.com/sanchiitvijay">
+              <img src="https://avatars.githubusercontent.com/u/71404343?v=4" width="100;" alt="sanchiitvijay"/>
+              <br />
+              <sub><b>Sanchit Vijay</b></sub>
           </a>
       </td>
       <td align="center">
