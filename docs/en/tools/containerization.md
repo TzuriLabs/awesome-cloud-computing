@@ -25,13 +25,13 @@
 | Name | Description | Link | Tutorial |
 |------|-------------|------|----------|
 | **Kubernetes** | Open-source system for automating deployment, scaling, and management of containerized applications. | [Kubernetes](https://kubernetes.io) | [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials) |
-| **OpenShift** | Kubernetes-based platform providing tools for deploying and managing containerized applications. | [OpenShift](https://www.openshift.com) | [OpenShift Documentation](https://docs.redhat.com/en/documentation/openshift_container_platform) |
-| **Nomad** | Flexible workload orchestrator supporting containerized and non-containerized workloads. | [Nomad](https://www.nomadproject.io) | [Nomad Tutorials](https://developer.hashicorp.com/nomad/tutorials) |
+| **OpenShift** | Kubernetes-based platform providing tools for deploying and managing containerized applications. | [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) | [OpenShift Documentation](https://docs.redhat.com/en/documentation/openshift_container_platform) |
+| **Nomad** | Flexible workload orchestrator supporting containerized and non-containerized workloads. | [Nomad](https://developer.hashicorp.com/nomad) | [Nomad Tutorials](https://developer.hashicorp.com/nomad/tutorials) |
 | **Docker Swarm** | Native Docker clustering and orchestration solution. | [Docker Swarm](https://docs.docker.com/engine/swarm) | [Swarm Mode Overview](https://docs.docker.com/engine/swarm/key-concepts) |
 | **AWS Fargate** | Serverless compute engine for running containers without managing servers. | [AWS Fargate](https://aws.amazon.com/fargate) | [Getting Started with Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html) |
 | **AWS EKS** | Managed Kubernetes service on AWS. | [AWS EKS](https://aws.amazon.com/eks) | [EKS Workshop](https://www.eksworkshop.com) |
 | **K3s** | Lightweight Kubernetes distribution for edge, IoT, and development use cases. | [K3s](https://docs.k3s.io) | [K3s Quick Start](https://docs.k3s.io/quick-start) |
-| **MicroK8s** | Lightweight Kubernetes distribution designed for local development and edge environments. | [MicroK8s](https://microk8s.io) | [MicroK8s Tutorials](https://canonical.com/microk8s/docs/tutorials) |
+| **MicroK8s** | Lightweight Kubernetes distribution designed for local development and edge environments. | [MicroK8s](https://canonical.com/microk8s) | [MicroK8s Tutorials](https://canonical.com/microk8s/docs/tutorials) |
 
 ## Management Tools
 
@@ -43,7 +43,7 @@
 | **Docker Compose** | Tool for defining and running multi-container Docker applications. | [Docker Compose](https://docs.docker.com/compose) | [Compose Get Started](https://docs.docker.com/compose/gettingstarted) |
 | **Helm** | Package manager for Kubernetes applications. | [Helm](https://helm.sh) | [Helm Quickstart](https://helm.sh/docs/intro/quickstart) |
 | **Portainer** | Web-based container management interface. | [Portainer](https://www.portainer.io) | [Portainer Docs](https://docs.portainer.io) |
-| **Rancher** | Platform for managing Kubernetes clusters across environments. | [Rancher](https://rancher.com) | [Rancher Documentation](https://ranchermanager.docs.rancher.com) |
+| **Rancher** | Platform for managing Kubernetes clusters across environments. | [Rancher](https://www.rancher.com) | [Rancher Documentation](https://ranchermanager.docs.rancher.com) |
 
 ## Container Benefits
 

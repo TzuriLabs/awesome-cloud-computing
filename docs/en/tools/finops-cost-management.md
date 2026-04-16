@@ -8,9 +8,9 @@
 | **AWS Cost Explorer** | Native AWS tool for visualizing and analyzing AWS cost and usage data. | [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer) |
 | **Azure Cost Management** | Cost management and billing service for Azure resources. | [Azure Cost Management](https://azure.microsoft.com/en-us/products/cost-management) |
 | **Google Cloud Cost Management** | Tools for cost visibility, budgeting, and optimization in Google Cloud. | [Cloud Cost Management](https://cloud.google.com/cost-management) |
-| **CloudHealth by VMware** | Multi-cloud cost management and governance platform. | [CloudHealth](https://www.cloudhealthtech.com) |
+| **CloudHealth by VMware** | Multi-cloud cost management and governance platform. | [CloudHealth](https://www.broadcom.com/products/software/finops/cloudhealth) |
 | **Cloudability by Apptio** | FinOps platform focused on cost visibility, optimization, and financial accountability. | [Cloudability](https://www.apptio.com/products/cloudability) |
-| **Spot by NetApp** | Cloud optimization platform using automated scaling and capacity management. | [Spot by NetApp](https://spot.io) |
+| **Spot by NetApp** | Cloud optimization platform using automated scaling and capacity management. | [Spot by NetApp](https://www.flexera.com) |
 
 ## FinOps Principles
 

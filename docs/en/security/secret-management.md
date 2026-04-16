@@ -7,7 +7,7 @@
 | **AWS Secrets Manager** | Securely stores and manages secrets such as API keys, database credentials, and tokens. | [AWS Secrets Manager](https://aws.amazon.com/secrets-manager) |
 | **AWS Systems Manager Parameter Store** | Alternative to Secrets Manager, supports secure string parameters. | [Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) |
 | **Azure Key Vault** | Securely stores secrets, keys, and certificates for use by cloud apps and services. | [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/overview) |
-| **Google Secret Manager** | Securely stores API keys, passwords, certificates, and other sensitive data. | [Google Secret Manager](https://cloud.google.com/secret-manager) |
+| **Google Secret Manager** | Securely stores API keys, passwords, certificates, and other sensitive data. | [Google Secret Manager](https://cloud.google.com/security/products/secret-manager) |
 
 ## Secret Management Fundamentals
 

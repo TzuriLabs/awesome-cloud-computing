@@ -8,7 +8,7 @@
 | Name | Description | Link |
 |------|-------------|------|
 | **AWS Educate** | A free program by Amazon providing learning resources and training materials for students and educators interested in cloud computing. | [AWS Educate](https://aws.amazon.com/education/awseducate) |
-| **Google Cloud Skills Boost** | A learning platform offering labs and courses to help users explore Google Cloud services and concepts. | [Google Cloud Skills Boost](https://www.cloudskillsboost.google) |
+| **Google Cloud Skills Boost** | A learning platform offering labs and courses to help users explore Google Cloud services and concepts. | [Google Cloud Skills Boost](https://www.skills.google) |
 
 ## Paid Certifications
 
@@ -16,7 +16,7 @@
 |------|-------------|------|
 | **AWS Certifications** | Certification programs covering a range of roles and skill levels related to Amazon Web Services. | [AWS Certifications](https://aws.amazon.com/certification) |
 | **Google Cloud Certification** | Certification paths focused on Google Cloud technologies and roles. | [GCP Certification](https://cloud.google.com/learn/certification?hl=en) |
-| **CompTIA Cloud+** | A vendor-neutral certification covering cloud infrastructure, operations, security, and troubleshooting concepts. | [CompTIA Cloud+](https://www.comptia.org/certifications/cloud) |
+| **CompTIA Cloud+** | A vendor-neutral certification covering cloud infrastructure, operations, security, and troubleshooting concepts. | [CompTIA Cloud+](https://www.comptia.org/en-us/certifications/cloud/) |
 
 ## Certification Paths
 

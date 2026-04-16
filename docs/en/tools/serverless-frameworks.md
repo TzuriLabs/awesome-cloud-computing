@@ -8,9 +8,9 @@
 | **Serverless Framework** | Framework for defining and deploying serverless applications across multiple cloud providers. | [Serverless Framework](https://www.serverless.com) |
 | **AWS SAM** | AWS Serverless Application Model for defining and deploying serverless applications on AWS. | [AWS SAM](https://aws.amazon.com/serverless/sam) |
 | **Azure Functions Core Tools** | Command-line tools for developing and testing Azure Functions locally. | [Azure Functions Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local) |
-| **Google Cloud Functions Framework** | Framework for writing portable serverless functions in multiple languages. | [Functions Framework](https://cloud.google.com/functions/docs/functions-framework) |
+| **Google Cloud Functions Framework** | Framework for writing portable serverless functions in multiple languages. | [Functions Framework](https://docs.cloud.google.com/run/docs/local-dev-functions) |
 | **Zappa** | Tool for deploying Python web applications to AWS Lambda and API Gateway. | [Zappa](https://github.com/zappa/Zappa) |
-| **Chalice** | Python framework for creating and deploying serverless applications on AWS. | [Chalice](https://chalice.readthedocs.io) |
+| **Chalice** | Python framework for creating and deploying serverless applications on AWS. | [Chalice](https://chalice.readthedocs.io/en/latest/) |
 
 ## Serverless Characteristics
 

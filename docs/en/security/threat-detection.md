@@ -6,7 +6,7 @@
 |------|-------------|------|
 | **AWS GuardDuty** | Threat detection service that continuously monitors for malicious activity and unauthorized behavior. | [AWS GuardDuty](https://aws.amazon.com/guardduty) |
 | **Azure Defender** | Advanced threat protection for workloads in Azure, now part of Microsoft Defender for Cloud. | [Azure Defender](https://azure.microsoft.com/en-us/products/defender-for-cloud) |
-| **Chronicle Security (Google)** | Google Cloud's threat detection and response platform. | [Chronicle Security](https://chronicle.security) |
+| **Chronicle Security (Google)** | Google Cloud's threat detection and response platform. | [Chronicle Security](https://cloud.google.com/security/products/security-operations) |
 
 ## Threat Detection Fundamentals
 
