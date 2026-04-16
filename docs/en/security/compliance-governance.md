@@ -6,7 +6,7 @@
 |------|-------------|------|
 | **AWS Artifact** | Provides access to AWS compliance reports and security/compliance documentation. | [AWS Artifact](https://aws.amazon.com/artifact) |
 | **Azure Compliance Manager** | Helps manage compliance activities and provides assessments and actionable insights. | [Azure Compliance](https://azure.microsoft.com/en-us/products/azure-policy) |
-| **Google Assured Workloads** | Supports compliance requirements like FedRAMP, HIPAA, and CJIS in Google Cloud. | [Assured Workloads](https://cloud.google.com/assured-workloads) |
+| **Google Assured Workloads** | Supports compliance requirements like FedRAMP, HIPAA, and CJIS in Google Cloud. | [Assured Workloads](https://cloud.google.com/security/products/assured-workloads) |
 
 ## Governance Fundamentals
 

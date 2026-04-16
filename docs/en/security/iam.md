@@ -6,7 +6,7 @@
 |------|-------------|------|
 | **AWS IAM** | Manage access to AWS services and resources securely with fine-grained permissions. | [AWS IAM](https://aws.amazon.com/iam) |
 | **Azure Entra ID** | Microsoft's unified identity and access solution, formerly known as Azure Active Directory. | [Azure Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) |
-| **Google IAM** | Provides fine-grained access control and visibility for Google Cloud resources. | [Google IAM](https://cloud.google.com/security/products/iam) |
+| **Google IAM** | Provides fine-grained access control and visibility for Google Cloud resources. | [Google IAM](https://docs.cloud.google.com/iam/docs) |
 
 ## IAM Fundamentals
 

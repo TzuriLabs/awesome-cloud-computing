@@ -7,7 +7,7 @@
 |------|-------------|------------------------|
 | **Terraform Cloud** | Managed service for Terraform providing collaboration features, remote state management, and policy enforcement. | [Terraform Cloud](https://cloud.hashicorp.com/products/terraform) |
 | **Pulumi Cloud** | Managed service for Pulumi offering team collaboration, policy as code, and deployment management features. | [Pulumi Cloud](https://www.pulumi.com/product/pulumi-cloud) |
-| **Crossplane** | Open-source Kubernetes-based control plane for managing infrastructure from multiple providers using declarative APIs. | [Crossplane](https://crossplane.io) |
+| **Crossplane** | Open-source Kubernetes-based control plane for managing infrastructure from multiple providers using declarative APIs. | [Crossplane](https://www.crossplane.io) |
 | **Scalr** | Infrastructure as Code management platform focused on governance, policy enforcement, and cost controls. | [Scalr](https://scalr.com) |
 | **env0** | GitOps-oriented Infrastructure as Code automation platform supporting Terraform, Terragrunt, and related workflows. | [env0](https://www.env0.com) |
 

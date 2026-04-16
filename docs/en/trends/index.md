@@ -33,7 +33,7 @@
 | Name | Description | Link |
 |------|-------------|------|
 | **Multi-cloud Strategy Guide** | Overview of multi-cloud concepts and considerations. | [Multi-cloud Strategy Guide](https://cloud.google.com/learn/what-is-multicloud) |
-| **Anthos** | Google’s hybrid and multi-cloud application platform. | [Anthos](https://cloud.google.com/anthos) |
+| **Anthos** | Google’s hybrid and multi-cloud application platform. | [Anthos](https://cloud.google.com/kubernetes-engine) |
 | **Azure Arc** | Azure-based management across on-premises and multi-cloud environments. | [Azure Arc](https://azure.microsoft.com/en-us/products/azure-arc) |
 | **AWS Outposts** | AWS infrastructure extended to on-premises locations. | [AWS Outposts](https://aws.amazon.com/outposts) |
 
@@ -112,7 +112,7 @@
 | **Google Vertex AI** | Unified ML platform with generative AI capabilities. | [Google Vertex AI](https://cloud.google.com/vertex-ai) |
 | **Anthropic Claude** | AI assistant focused on safety-oriented model design. | [Anthropic Claude](https://www.anthropic.com/claude) |
 | **Hugging Face Hub** | Platform for sharing and deploying ML models. | [Hugging Face Hub](https://huggingface.co) |
-| **LangChain** | Framework for building applications with language models. | [LangChain](https://langchain.com) |
+| **LangChain** | Framework for building applications with language models. | [LangChain](https://www.langchain.com) |
 
 ---
 
@@ -166,7 +166,7 @@
 | Name | Description | Link |
 |------|-------------|------|
 | **PlanetScale** | Serverless MySQL platform built on Vitess. | [PlanetScale](https://planetscale.com) |
-| **Neon** | Serverless PostgreSQL with branching and autoscaling. | [Neon](https://neon.tech) |
+| **Neon** | Serverless PostgreSQL with branching and autoscaling. | [Neon](https://neon.com) |
 | **Supabase** | Open source Firebase alternative built on PostgreSQL. | [Supabase](https://supabase.com) |
 | **CockroachDB** | Distributed SQL database for cloud-native workloads. | [CockroachDB](https://www.cockroachlabs.com) |
 
