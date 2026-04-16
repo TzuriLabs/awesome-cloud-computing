@@ -35,7 +35,7 @@ lint:
 check-links:
     @echo "Checking for broken links with lychee..."
     @if command -v lychee >/dev/null 2>&1; then \
-        lychee README.md docs/en/**/*.md && echo "All links are valid!"; \
+        lychee --verbose --no-progress --accept 200,204,301,302,307,308 README.md 'docs/**/*.md' && echo "All links are valid!"; \
     else \
         echo "lychee not installed. Install with:"; \
         echo "  cargo install lychee"; \
