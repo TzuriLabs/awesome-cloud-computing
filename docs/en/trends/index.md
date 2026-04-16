@@ -77,7 +77,7 @@
 
 | Name | Description | Link |
 |------|-------------|------|
-| **Shift-Left Security** | Integrating security earlier in the development lifecycle. | [Shift-Left Security](https://www.paloaltonetworks.com/blog/cloud-security/shift-left-code-cloud-integration) |
+| **Shift-Left Security** | Integrating security earlier in the development lifecycle. | [Shift-Left Security](https://www.paloaltonetworks.com/blog/cloud-security/shift-left-code-cloud-integration/) |
 | **AWS Security Hub** | Centralized security posture management on AWS. | [AWS Security Hub](https://aws.amazon.com/security-hub) |
 | **Open Policy Agent** | Policy-as-code framework for cloud-native systems. | [Open Policy Agent](https://www.openpolicyagent.org) |
 | **Falco** | Runtime security monitoring for containers and Kubernetes. | [Falco](https://falco.org) |
@@ -110,7 +110,7 @@
 | **Amazon Bedrock** | Managed service for building generative AI applications. | [Amazon Bedrock](https://aws.amazon.com/bedrock) |
 | **Azure OpenAI Service** | Access to OpenAI models through Azure. | [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service) |
 | **Google Vertex AI** | Unified ML platform with generative AI capabilities. | [Google Vertex AI](https://cloud.google.com/vertex-ai) |
-| **Anthropic Claude** | AI assistant focused on safety-oriented model design. | [Anthropic Claude](https://www.anthropic.com/claude) |
+| **Anthropic Claude** | AI assistant focused on safety-oriented model design. | [Anthropic Claude](https://claude.com/product/overview) |
 | **Hugging Face Hub** | Platform for sharing and deploying ML models. | [Hugging Face Hub](https://huggingface.co) |
 | **LangChain** | Framework for building applications with language models. | [LangChain](https://langchain.com) |
 

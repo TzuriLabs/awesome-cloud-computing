@@ -17,21 +17,55 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check-docs-changed:
+    name: Check Docs Changes
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    outputs:
+      docs_changed: ${{ steps.filter.outputs.docs_changed }}
+      head_sha: ${{ steps.get-sha.outputs.sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Get SHA
+        id: get-sha
+        run: echo "sha=${{ github.event.workflow_run.head_sha || github.sha }}" >> $GITHUB_OUTPUT
+
+      - name: Check if docs changed
+        id: filter
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "docs_changed=true" >> $GITHUB_OUTPUT
+          else
+            git diff --name-only HEAD~1 HEAD > changed_files.txt
+            if grep -qE '^docs/|^mkdocs\.yml' changed_files.txt; then
+              echo "docs_changed=true" >> $GITHUB_OUTPUT
+            else
+              echo "docs_changed=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
   build:
     name: Build Website
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    needs: check-docs-changed
+    if: needs.check-docs-changed.outputs.docs_changed == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Use the head_sha of the workflow_run to get the correct commit
-          ref: ${{ github.event.workflow_run.head_sha }}
+          ref: ${{ needs.check-docs-changed.outputs.head_sha }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.13"
 
       - name: Install uv
         run: |
@@ -53,11 +87,11 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    # Only deploy if it's the main branch and build succeeded
+    needs: [check-docs-changed, build]
     if: >
-      github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.head_branch == 'main'
-    needs: build
+      needs.check-docs-changed.outputs.docs_changed == 'true' &&
+      (github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     environment:
       name: github-pages
