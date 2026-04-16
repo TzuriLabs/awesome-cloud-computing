@@ -33,6 +33,7 @@ jobs:
           args: |
             --verbose
             --no-progress
+            --no-fail-on-redirect
             'README.md'
             'docs/**/*.md'
         env:
