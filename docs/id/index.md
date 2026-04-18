@@ -1,4 +1,4 @@
-**You can also find this guide in these languages:**
+**Anda juga dapat menemukan panduan ini dalam bahasa berikut:**
 
 - [English](/)
 - [Bahasa Indonesia](/id/)
@@ -7,9 +7,9 @@
 
 <div align="center">
   <p>
-    A curated list of concepts, cloud platforms, tools, practices and resources to learn,
+    Daftar pilihan konsep, platform cloud, alat, praktik, dan sumber daya untuk belajar,
     <br>
-    and improve cloud computing knowledge.
+    dan meningkatkan pengetahuan cloud computing.
   </p>
   <p>
     <a href="https://awesome.re">
@@ -22,37 +22,37 @@
 
 ## Tujuan
 
-This project collects references and resources related to cloud computing
-for learning and general exploration.
+Proyek ini mengumpulkan referensi dan sumber daya terkait cloud computing
+untuk pembelajaran dan eksplorasi secara umum.
 
-It aims to:
+Tujuannya untuk:
 
-- **List** cloud computing resources across different categories
-- **Organize** references for platforms, tools, and practices
-- **Share** useful materials with the cloud community
+- **Mendaftar** sumber daya cloud computing di berbagai kategori
+- **Mengatur** referensi untuk platform, alat, dan praktik
+- **Berbagi** materi yang berguna dengan komunitas cloud
 
-## Quick Start
+## Memulai Cepat
 
-1. **New to Cloud?** Start with [Basic Concepts](learning/basic-concepts.md)
+1. **Baru di Cloud?** Mulai dengan [Konsep Dasar](learning/basic-concepts.md)
 
-2. **Cloud platforms** - See tutorials for [AWS](learning/tutorials.md#amazon-web-service), [Azure](learning/tutorials.md#azure), and [Google Cloud](learning/tutorials.md#google-cloud-platforms)
+2. **Platform Cloud** - Lihat tutorial untuk [AWS](learning/tutorials.md#amazon-web-service), [Azure](learning/tutorials.md#azure), dan [Google Cloud](learning/tutorials.md#google-cloud-platforms)
 
-3. **Tools and practices** - Explore [Infrastructure as Code](tools/infrastructure-as-code.md) and [Containerization](tools/containerization.md)
+3. **Alat dan praktik** - Jelajahi [Infrastructure as Code](tools/infrastructure-as-code.md) dan [Containerization](tools/containerization.md)
 
-4. **Community** - Find related groups and events in the [Community](community/index.md) section
+4. **Komunitas** - Temukan grup dan acara terkait di bagian [Komunitas](community/index.md)
 
-## Contributing
+## Kontribusi
 
-If you have suggestions on content or would like to contribute to translations, check out our [GitHub repository](https://github.com/TzuriLabs/awesome-cloud-computing). Please read our [Contributing Guidelines](contributing.md) to get started.
+Jika Anda memiliki saran tentang konten atau ingin berkontribusi pada terjemahan, kunjungi [repositori GitHub](https://github.com/TzuriLabs/awesome-cloud-computing) kami. Silakan baca [Panduan Kontribusi](contributing.md) untuk memulai.
 
-## License
+## Lisensi
 
-This project is licensed under the [MIT License](https://github.com/TzuriLabs/awesome-cloud-computing/blob/main/LICENSE). You are free to use, copy, modify, and distribute this list, provided that the original license notice is included.
+Proyek ini dilisensikan di bawah [Lisensi MIT](https://github.com/TzuriLabs/awesome-cloud-computing/blob/main/LICENSE). Anda bebas menggunakan, menyalin, memodifikasi, dan mendistribusikan daftar ini, asalkan pemberitahuan lisensi asli disertakan.
 
 <div align="center">
-  <p>⭐ If you find this resource helpful, please give it a star!</p>
+  <p>⭐ Jika Anda merasa sumber daya ini bermanfaat, silakan beri bintang!</p>
 </div>
 
 ---
 
-[:material-arrow-right: Learning Resources](learning/index.md){ .md-button .md-button--primary }
+[:material-arrow-right: Sumber Belajar](learning/index.md){ .md-button .md-button--primary }
