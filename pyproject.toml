@@ -15,4 +15,5 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pre-commit>=4.5.1",
+    "rich>=13.0.0",
 ]

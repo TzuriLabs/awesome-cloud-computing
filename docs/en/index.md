@@ -43,11 +43,11 @@ It aims to:
 
 ## Contributing
 
-If you have suggestions on content or would like to contribute to translations, check out our [GitHub repository](https://github.com/danielcristho/awesome-cloud-computing). Please read our [Contributing Guidelines](contributing.md) to get started.
+If you have suggestions on content or would like to contribute to translations, check out our [GitHub repository](https://github.com/TzuriLabs/awesome-cloud-computing). Please read our [Contributing Guidelines](contributing.md) to get started.
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/danielcristho/awesome-cloud-computing/blob/main/LICENSE). You are free to use, copy, modify, and distribute this list, provided that the original license notice is included.
+This project is licensed under the [MIT License](https://github.com/TzuriLabs/awesome-cloud-computing/blob/main/LICENSE). You are free to use, copy, modify, and distribute this list, provided that the original license notice is included.
 
 <div align="center">
   <p>⭐ If you find this resource helpful, please give it a star!</p>

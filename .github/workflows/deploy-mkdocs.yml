@@ -17,21 +17,50 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check-docs-changed:
+    name: Check Docs Changes
+    runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    outputs:
+      docs_changed: ${{ steps.filter.outputs.docs }}
+      head_sha: ${{ steps.get-sha.outputs.sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Get SHA
+        id: get-sha
+        run: echo "sha=${{ github.event.workflow_run.head_sha || github.sha }}" >> $GITHUB_OUTPUT
+
+      - name: Check if docs changed
+        id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            docs:
+              - 'docs/**'
+              - 'mkdocs.yml'
+
   build:
     name: Build Website
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    needs: check-docs-changed
+    if: needs.check-docs-changed.outputs.docs_changed == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Use the head_sha of the workflow_run to get the correct commit
-          ref: ${{ github.event.workflow_run.head_sha }}
+          ref: ${{ needs.check-docs-changed.outputs.head_sha }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.13"
 
       - name: Install uv
         run: |
@@ -53,14 +82,14 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    # Only deploy if it's the main branch and build succeeded
+    needs: [check-docs-changed, build]
     if: >
-      github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.head_branch == 'main'
-    needs: build
+      needs.check-docs-changed.outputs.docs_changed == 'true' &&
+      (github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: "github-pages"
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
