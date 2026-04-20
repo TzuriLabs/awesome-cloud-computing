@@ -24,7 +24,7 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.conclusion == 'success'
     outputs:
-      docs_changed: ${{ steps.filter.outputs.docs_changed }}
+      docs_changed: ${{ steps.filter.outputs.docs }}
       head_sha: ${{ steps.get-sha.outputs.sha }}
     steps:
       - name: Checkout
@@ -39,17 +39,12 @@ jobs:
 
       - name: Check if docs changed
         id: filter
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "docs_changed=true" >> $GITHUB_OUTPUT
-          else
-            git diff --name-only HEAD~1 HEAD > changed_files.txt
-            if grep -qE '^docs/|^mkdocs\.yml' changed_files.txt; then
-              echo "docs_changed=true" >> $GITHUB_OUTPUT
-            else
-              echo "docs_changed=false" >> $GITHUB_OUTPUT
-            fi
-          fi
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            docs:
+              - 'docs/**'
+              - 'mkdocs.yml'
 
   build:
     name: Build Website
@@ -94,7 +89,7 @@ jobs:
       github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: "github-pages"
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
