@@ -10,6 +10,7 @@
 | **Crossplane** | Open-source Kubernetes-based control plane for managing infrastructure from multiple providers using declarative APIs. | [Crossplane](https://www.crossplane.io) |
 | **Scalr** | Infrastructure as Code management platform focused on governance, policy enforcement, and cost controls. | [Scalr](https://scalr.com) |
 | **env0** | GitOps-oriented Infrastructure as Code automation platform supporting Terraform, Terragrunt, and related workflows. | [env0](https://www.env0.com) |
+| **KubeStellar Console** | Multi-cluster Kubernetes dashboard with real-time observability, AI-powered operations, and unified management across edge and cloud clusters. | [KubeStellar Console](https://github.com/kubestellar/console) |
 
 ## Why Multi-cloud?
 
