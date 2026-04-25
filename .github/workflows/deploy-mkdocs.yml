@@ -24,13 +24,13 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.conclusion == 'success'
     outputs:
-      docs_changed: ${{ steps.filter.outputs.docs }}
+      docs_changed: ${{ steps.filter.outputs.docs_changed }}
       head_sha: ${{ steps.get-sha.outputs.sha }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - name: Get SHA
@@ -39,12 +39,24 @@ jobs:
 
       - name: Check if docs changed
         id: filter
-        uses: dorny/paths-filter@v3
-        with:
-          filters: |
-            docs:
-              - 'docs/**'
-              - 'mkdocs.yml'
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "docs_changed=true" >> $GITHUB_OUTPUT
+          else
+            BEFORE="${{ github.event.workflow_run.event == 'push' && github.event.workflow_run.head_commit.id || '' }}"
+            BASE=$(git rev-parse HEAD~1 2>/dev/null || echo "")
+            if [ -z "$BASE" ]; then
+              echo "docs_changed=true" >> $GITHUB_OUTPUT
+            else
+              CHANGED=$(git diff --name-only $BASE HEAD)
+              echo "Changed files: $CHANGED"
+              if echo "$CHANGED" | grep -qE '^docs/|^mkdocs\.yml'; then
+                echo "docs_changed=true" >> $GITHUB_OUTPUT
+              else
+                echo "docs_changed=false" >> $GITHUB_OUTPUT
+              fi
+            fi
+          fi
 
   build:
     name: Build Website
@@ -88,7 +100,7 @@ jobs:
       (github.event_name == 'workflow_dispatch' ||
       github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
-    environment:
+    environment: # GitHub Pages deployment environment
       name: "github-pages"
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
