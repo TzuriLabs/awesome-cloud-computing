@@ -17,6 +17,13 @@
 | **Get started with Azure** | Entry-level guides and documentation available through the Azure Quickstart Center. | [Azure Portal Quickstart Center](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-quickstart-center) |
 | **Getting started with Azure App Service** | Documentation and tutorials for building and hosting web applications using Azure App Service. | [Azure App Service](https://learn.microsoft.com/en-us/azure/app-service) |
 
+## Cloudflare
+
+| Name | Description | Link |
+|------|-------------|------|
+| **Cloudflare Developer Tutorials** | Official tutorials, learning paths, and examples for building on the Cloudflare platform. | [Cloudflare Resources](https://developers.cloudflare.com/resources/) |
+| **LabEx Cloudflare Learning Path** | Guided hands-on labs covering Workers, KV, D1, R2, Workers AI, Vectorize, AI Gateway, Durable Objects, and Agents SDK. | [Start learning](https://labex.io/learn/cloudflare) |
+
 ## DigitalOcean
 
 | Name | Description | Link |
