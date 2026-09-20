@@ -14,7 +14,7 @@
 | **Docker** | Platform untuk membangun, menguji, dan menjalankan aplikasi menggunakan container. | [Docker](https://www.docker.com) | [Docker Get Started](https://docs.docker.com/get-started) |
 | **Podman** | Mesin container tanpa daemon untuk mengelola container OCI dengan CLI yang kompatibel dengan Docker. | [Podman](https://podman.io) | [Podman Getting Started](https://podman.io/get-started) |
 | **containerd** | Runtime container standar industri yang digunakan oleh Docker, Kubernetes, dan sistem lain. | [containerd](https://containerd.io) | [Getting started with containerd](https://github.com/containerd/containerd/blob/main/docs/getting-started.md) |
-| **Kata Containers** | Proyek open-source yang menggabungkan mesin virtual ringan dengan alur kerja container untuk isolasi yang lebih kuat. | [Kata Containers](https://katacontainers.io) | [Kata Containers Docs](https://katacontainers.io/docs) |
+| **Kata Containers** | Proyek open-source yang menggabungkan mesin virtual ringan dengan alur kerja container untuk isolasi yang lebih kuat. | [Kata Containers](https://katacontainers.io) | [Kata Containers Docs](https://github.com/kata-containers/kata-containers/tree/main/docs) |
 | **Firecracker** | Teknologi microVM ringan untuk menjalankan beban kerja container dan serverless. | [Firecracker](https://firecracker-microvm.github.io) | [Firecracker Getting Started](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md) |
 
 ## Orkestrasi Container

@@ -14,7 +14,7 @@
 | **Docker** | Platform for building, testing, and running applications using containers. | [Docker](https://www.docker.com) | [Docker Get Started](https://docs.docker.com/get-started) |
 | **Podman** | Daemonless container engine for managing OCI containers with a Docker-compatible CLI. | [Podman](https://podman.io) | [Podman Getting Started](https://podman.io/get-started) |
 | **containerd** | Industry-standard container runtime used by Docker, Kubernetes, and other systems. | [containerd](https://containerd.io) | [Getting started with containerd](https://github.com/containerd/containerd/blob/main/docs/getting-started.md) |
-| **Kata Containers** | Open-source project combining lightweight virtual machines with container workflows for stronger isolation. | [Kata Containers](https://katacontainers.io) | [Kata Containers Docs](https://katacontainers.io/docs) |
+| **Kata Containers** | Open-source project combining lightweight virtual machines with container workflows for stronger isolation. | [Kata Containers](https://katacontainers.io) | [Kata Containers Docs](https://github.com/kata-containers/kata-containers/tree/main/docs) |
 | **Firecracker** | Lightweight microVM technology for running container and serverless workloads. | [Firecracker](https://firecracker-microvm.github.io) | [Firecracker Getting Started](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md) |
 
 ## Container Orchestration
