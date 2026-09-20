@@ -14,7 +14,8 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: en
-  logo: assets/awesome-logo.svg
+  logo: assets/awesome-cloud-light.png
+  favicon: assets/awesome-cloud-light.png
   features:
     - navigation.tabs
     - navigation.sections
