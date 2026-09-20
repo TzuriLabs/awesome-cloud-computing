@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -1 218 142" role="img" aria-label="Awesome Cloud Computing">
+  <title>Awesome Cloud Computing</title>
+  <clipPath id="cloud"><path d="M46 132C22 132 4 114 4 91c0-21 16-39 37-41C47 25 70 7 96 7s45 18 55 43c5-3 11-4 17-4 21 0 38 17 38 39s-17 47-38 47Z"/></clipPath>
+  <g clip-path="url(#cloud)" stroke="#3B3355" stroke-width="3.5" stroke-linejoin="round">
+    <polygon points="-33,-62.8 13,-36.2 -33,-9.7 -79,-36.2" fill="#F3C755"/>
+    <polygon points="-79,-36.2 -33,-9.7 -33,43.4 -79,16.9" fill="#C98A1E"/>
+    <polygon points="-33,-9.7 13,-36.2 13,16.9 -33,43.4" fill="#E2A631"/>
+    <polygon points="59,-62.8 105,-36.2 59,-9.7 13,-36.2" fill="#F3C755"/>
+    <polygon points="13,-36.2 59,-9.7 59,43.4 13,16.9" fill="#C98A1E"/>
+    <polygon points="59,-9.7 105,-36.2 105,16.9 59,43.4" fill="#E2A631"/>
+    <polygon points="151,-62.8 197,-36.2 151,-9.7 105,-36.2" fill="#F3C755"/>
+    <polygon points="105,-36.2 151,-9.7 151,43.4 105,16.9" fill="#C98A1E"/>
+    <polygon points="151,-9.7 197,-36.2 197,16.9 151,43.4" fill="#E2A631"/>
+    <polygon points="243,-62.8 289,-36.2 243,-9.7 197,-36.2" fill="#F3C755"/>
+    <polygon points="197,-36.2 243,-9.7 243,43.4 197,16.9" fill="#C98A1E"/>
+    <polygon points="243,-9.7 289,-36.2 289,16.9 243,43.4" fill="#E2A631"/>
+    <polygon points="13,16.9 59,43.4 13,70 -33,43.4" fill="#F3C755"/>
+    <polygon points="-33,43.4 13,70 13,123.1 -33,96.6" fill="#C98A1E"/>
+    <polygon points="13,70 59,43.4 59,96.6 13,123.1" fill="#E2A631"/>
+    <polygon points="105,16.9 151,43.4 105,70 59,43.4" fill="#F3C755"/>
+    <polygon points="59,43.4 105,70 105,123.1 59,96.6" fill="#C98A1E"/>
+    <polygon points="105,70 151,43.4 151,96.6 105,123.1" fill="#E2A631"/>
+    <polygon points="197,16.9 243,43.4 197,70 151,43.4" fill="#F3C755"/>
+    <polygon points="151,43.4 197,70 197,123.1 151,96.6" fill="#C98A1E"/>
+    <polygon points="197,70 243,43.4 243,96.6 197,123.1" fill="#E2A631"/>
+    <polygon points="-33,96.6 13,123.1 -33,149.7 -79,123.1" fill="#F3C755"/>
+    <polygon points="-79,123.1 -33,149.7 -33,202.8 -79,176.2" fill="#C98A1E"/>
+    <polygon points="-33,149.7 13,123.1 13,176.2 -33,202.8" fill="#E2A631"/>
+    <polygon points="59,96.6 105,123.1 59,149.7 13,123.1" fill="#F3C755"/>
+    <polygon points="13,123.1 59,149.7 59,202.8 13,176.2" fill="#C98A1E"/>
+    <polygon points="59,149.7 105,123.1 105,176.2 59,202.8" fill="#E2A631"/>
+    <polygon points="151,96.6 197,123.1 151,149.7 105,123.1" fill="#F3C755"/>
+    <polygon points="105,123.1 151,149.7 151,202.8 105,176.2" fill="#C98A1E"/>
+    <polygon points="151,149.7 197,123.1 197,176.2 151,202.8" fill="#E2A631"/>
+    <polygon points="243,96.6 289,123.1 243,149.7 197,123.1" fill="#F3C755"/>
+    <polygon points="197,123.1 243,149.7 243,202.8 197,176.2" fill="#C98A1E"/>
+    <polygon points="243,149.7 289,123.1 289,176.2 243,202.8" fill="#E2A631"/>
+  </g>
+  <path d="M46 132C22 132 4 114 4 91c0-21 16-39 37-41C47 25 70 7 96 7s45 18 55 43c5-3 11-4 17-4 21 0 38 17 38 39s-17 47-38 47Z" fill="none" stroke="#3B3355" stroke-width="8" stroke-linejoin="round"/>
+</svg>
