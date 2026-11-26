@@ -34,6 +34,7 @@
 | **Linode** | Cloud hosting provider offering Linux virtual machines and related infrastructure services. | [linode.com](https://www.linode.com) |
 | **Vultr** | Cloud provider offering virtual machines, bare metal, and global deployment options. | [vultr.com](https://www.vultr.com) |
 | **Hetzner Cloud** | Cloud provider offering virtual machines and infrastructure services, primarily in Europe. | [hetzner.com/cloud](https://www.hetzner.com/cloud) |
+| **Apidly Cloud** | GPU servers billed per second from prepaid credit, with serverless GPU endpoints, a REST API and CLI. | [apidly.com](https://apidly.com) |
 
 ## Open-Source Cloud Platforms
 
